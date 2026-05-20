@@ -106,7 +106,7 @@ export function Game() {
   };
 
   const statusMessage = useMemo(() => {
-    if (state.won) return 'You restored the phrase.';
+    if (state.won) return 'You Won!';
     if (lost) return 'Game over.';
     const last = state.lastResult;
     if (!last) return null;
@@ -130,13 +130,13 @@ export function Game() {
   return (
     <div className="game" onClick={handleClearSelection}>
       <header className="game__header">
-        <h1 className="game__title">THREAD</h1>
-        {!gameOver && (
-          <p className="game__hint">connect the boxes to find the words</p>
-        )}
+        <h1 className="game__title">PHRASE FINDER</h1>
+        <p className={`game__hint ${gameOver ? 'game__slot--hidden' : ''}`}>
+          connect the boxes to find the words
+        </p>
       </header>
 
-      <PhraseStrip puzzle={puzzle} revealedWords={state.revealedWords} />
+      <PhraseStrip puzzle={puzzle} revealedWords={state.revealedWords} lost={lost} />
 
       <Board
         puzzle={puzzle}
@@ -149,37 +149,43 @@ export function Game() {
       />
 
       <div className="game__controls">
-        {path.length > 0 && (
-          <div className="game__path-preview" aria-live="polite">
-            <span className="game__path-label">Path:</span> {pathLetters}
+        <div className="game__path-preview" aria-live="polite">
+          {path.length > 0 ? (
+            <>
+              <span className="game__path-label">Path:</span> {pathLetters}
+            </>
+          ) : (
+            <span className="game__slot--hidden" aria-hidden="true">
+              {'\u00a0'}
+            </span>
+          )}
+        </div>
+        <p className={`game__tries ${state.won ? 'game__slot--hidden' : ''}`}>
+          Tries Left: <span className="game__tries-count">{triesLeft}</span>
+        </p>
+        <div className="game__buttons-wrap">
+          {state.won ? (
+            <p className="game__solved">
+              Solved in {state.guesses} {state.guesses === 1 ? 'try' : 'tries'}
+            </p>
+          ) : null}
+          <div className="game__buttons">
+            <button type="button" onClick={clearPath} disabled={path.length === 0 || gameOver}>
+              Clear
+            </button>
+            <button
+              type="button"
+              className="game__submit"
+              onClick={submitGuess}
+              disabled={path.length === 0 || gameOver}
+            >
+              Submit
+            </button>
           </div>
-        )}
-        {!state.won && <p className="game__tries">Tries Left: {triesLeft}</p>}
-        <div className="game__buttons">
-          <button type="button" onClick={clearPath} disabled={path.length === 0 || gameOver}>
-            Clear
-          </button>
-          <button
-            type="button"
-            className="game__submit"
-            onClick={submitGuess}
-            disabled={path.length === 0 || gameOver}
-          >
-            Submit
-          </button>
         </div>
       </div>
 
-      {statusMessage && <p className="game__status">{statusMessage}</p>}
-
-      {state.won && (
-        <div className="game__win">
-          <p>
-            Solved in {state.guesses} {state.guesses === 1 ? 'seam' : 'seams'}.
-          </p>
-          <p className="game__phrase-reveal">{puzzle.phrase}</p>
-        </div>
-      )}
+      <p className="game__status">{statusMessage ?? ''}</p>
 
       <footer className="game__footer">
         <nav className="game__pagination" aria-label="Level pagination">

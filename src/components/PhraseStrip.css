@@ -12,6 +12,7 @@
 }
 
 .phrase-tile {
+  position: relative;
   width: var(--phrase-tile-size);
   height: var(--phrase-tile-size);
   display: flex;
@@ -28,11 +29,33 @@
   transition: transform 0.4s ease, background 0.3s ease, color 0.2s ease;
 }
 
+.phrase-tile__word-num {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--color-text-muted, #888);
+  pointer-events: none;
+}
+
+.phrase-tile--revealed .phrase-tile__word-num {
+  color: var(--color-text);
+  opacity: 0.55;
+}
+
 .phrase-tile--revealed {
   color: var(--color-text);
   background: var(--color-phrase-revealed-bg);
   border-color: var(--color-phrase-revealed-border);
   animation: phrase-flip 0.5s ease;
+}
+
+.phrase-tile--missed {
+  color: #d32f2f;
+  background: var(--color-phrase-revealed-bg);
+  border-color: var(--color-phrase-revealed-border);
 }
 
 @keyframes phrase-flip {
