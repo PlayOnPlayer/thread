@@ -149,7 +149,7 @@ export function Game() {
   };
 
   const statusMessage = useMemo(() => {
-    if (state.won) return 'You Won!';
+    if (state.won) return null;
     if (lost) return 'Game over.';
     const last = state.lastResult;
     if (!last) return null;
@@ -208,22 +208,28 @@ export function Game() {
           )}
         </div>
         <TriesDots triesLeft={triesLeft} maxTries={MAX_TRIES} hidden={state.won} />
-        <div className="game__buttons">
-          <button type="button" onClick={clearPath} disabled={!canClear || gameOver}>
-            Clear
-          </button>
-          <button
-            type="button"
-            className="game__submit"
-            onClick={submitGuess}
-            disabled={!canSubmit}
-          >
-            Submit
-          </button>
-        </div>
+        {state.won ? (
+          <p className="game__win-message" role="status">
+            You Won!
+          </p>
+        ) : (
+          <div className="game__buttons">
+            <button type="button" onClick={clearPath} disabled={!canClear || gameOver}>
+              Clear
+            </button>
+            <button
+              type="button"
+              className="game__submit"
+              onClick={submitGuess}
+              disabled={!canSubmit}
+            >
+              Submit
+            </button>
+          </div>
+        )}
       </div>
 
-      <p className="game__status">{statusMessage ?? ''}</p>
+      <p className="game__status">{state.won ? '' : (statusMessage ?? '')}</p>
 
       <footer className="game__footer">
         <nav className="game__pagination" aria-label="Level pagination">
