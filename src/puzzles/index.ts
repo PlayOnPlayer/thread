@@ -79,6 +79,11 @@ export function getDailyPuzzle(date = new Date()): PuzzleDef {
   return puzzles[index]!;
 }
 
+export function getRandomPuzzle(): PuzzleDef {
+  const index = Math.floor(Math.random() * puzzles.length);
+  return puzzles[index]!;
+}
+
 export function listPuzzleIds(): string[] {
   return puzzles.map((p) => p.id);
 }

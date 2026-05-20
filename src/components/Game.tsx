@@ -2,7 +2,7 @@ import { useCallback, useMemo, useState } from 'react';
 import { applyGuessResult, createInitialState, scoreGuess } from '../engine/guessScorer';
 import { getLegalNextTiles, isPathConnected, pathToLetters } from '../engine/seamGraph';
 import type { GameState, GuessResult, PuzzleDef, TileDef } from '../engine/types';
-import { getDailyPuzzle, puzzles } from '../puzzles';
+import { getRandomPuzzle, puzzles } from '../puzzles';
 import { Board } from './Board';
 import { PhraseStrip } from './PhraseStrip';
 import './Game.css';
@@ -34,7 +34,7 @@ function getPuzzleFromQuery(): PuzzleDef {
     const found = puzzles.find((p) => p.id === id);
     if (found) return found;
   }
-  return getDailyPuzzle();
+  return getRandomPuzzle();
 }
 
 export function Game() {
