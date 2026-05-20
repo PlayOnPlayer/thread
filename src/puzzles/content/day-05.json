@@ -1,49 +1,47 @@
 {
   "id": "day-05",
-  "title": "BREAK THE ICE",
+  "title": "PLAY BY EAR",
   "layoutId": "layout-05",
-  "phrase": "BREAK THE ICE",
+  "phrase": "PLAY BY EAR",
   "words": [
-    "BREAK",
-    "THE",
-    "ICE"
+    "PLAY",
+    "BY",
+    "EAR"
   ],
   "letters": {
-    "s3": "B",
-    "s4": "R",
-    "s7": "E",
-    "s6": "A",
-    "s9": "K",
-    "s8": "TH",
-    "s5": "E",
-    "s1": "I",
-    "s0": "CE",
-    "s2": "P",
-    "s10": "SH"
+    "s5": "P",
+    "s6": "L",
+    "s3": "A",
+    "s4": "Y",
+    "s0": "BY",
+    "s10": "EA",
+    "s7": "R",
+    "s1": "M",
+    "s2": "N",
+    "s8": "CH",
+    "s9": "Q"
   },
   "solutions": [
     {
-      "word": "BREAK",
+      "word": "PLAY",
       "path": [
-        "s3",
-        "s4",
-        "s7",
+        "s5",
         "s6",
-        "s9"
+        "s3",
+        "s4"
       ]
     },
     {
-      "word": "THE",
+      "word": "BY",
       "path": [
-        "s8",
-        "s5"
-      ]
-    },
-    {
-      "word": "ICE",
-      "path": [
-        "s1",
         "s0"
+      ]
+    },
+    {
+      "word": "EAR",
+      "path": [
+        "s10",
+        "s7"
       ]
     }
   ]

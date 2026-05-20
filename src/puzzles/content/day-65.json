@@ -1,0 +1,51 @@
+{
+  "id": "day-65",
+  "title": "LIVE AND LEARN",
+  "layoutId": "layout-65",
+  "phrase": "LIVE AND LEARN",
+  "words": [
+    "LIVE",
+    "AND",
+    "LEARN"
+  ],
+  "letters": {
+    "s10": "L",
+    "s8": "I",
+    "s7": "V",
+    "s5": "E",
+    "s9": "A",
+    "s6": "ND",
+    "s4": "L",
+    "s0": "EA",
+    "s1": "R",
+    "s2": "N",
+    "s3": "SH"
+  },
+  "solutions": [
+    {
+      "word": "LIVE",
+      "path": [
+        "s10",
+        "s8",
+        "s7",
+        "s5"
+      ]
+    },
+    {
+      "word": "AND",
+      "path": [
+        "s9",
+        "s6"
+      ]
+    },
+    {
+      "word": "LEARN",
+      "path": [
+        "s4",
+        "s0",
+        "s1",
+        "s2"
+      ]
+    }
+  ]
+}

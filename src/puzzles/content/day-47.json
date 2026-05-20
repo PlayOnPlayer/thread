@@ -1,0 +1,53 @@
+{
+  "id": "day-47",
+  "title": "OPEN THE DOOR",
+  "layoutId": "layout-47",
+  "phrase": "OPEN THE DOOR",
+  "words": [
+    "OPEN",
+    "THE",
+    "DOOR"
+  ],
+  "letters": {
+    "s1": "O",
+    "s3": "P",
+    "s4": "E",
+    "s9": "N",
+    "s11": "T",
+    "s8": "H",
+    "s5": "E",
+    "s6": "D",
+    "s7": "OO",
+    "s12": "R",
+    "s0": "CH",
+    "s2": "Q",
+    "s10": "R"
+  },
+  "solutions": [
+    {
+      "word": "OPEN",
+      "path": [
+        "s1",
+        "s3",
+        "s4",
+        "s9"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s11",
+        "s8",
+        "s5"
+      ]
+    },
+    {
+      "word": "DOOR",
+      "path": [
+        "s6",
+        "s7",
+        "s12"
+      ]
+    }
+  ]
+}

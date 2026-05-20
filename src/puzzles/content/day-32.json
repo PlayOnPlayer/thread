@@ -1,0 +1,60 @@
+{
+  "id": "day-32",
+  "title": "KEEP AN OPEN MIND",
+  "layoutId": "layout-32",
+  "phrase": "KEEP AN OPEN MIND",
+  "words": [
+    "KEEP",
+    "AN",
+    "OPEN",
+    "MIND"
+  ],
+  "letters": {
+    "s3": "K",
+    "s4": "E",
+    "s8": "E",
+    "s11": "P",
+    "s5": "A",
+    "s6": "N",
+    "s9": "O",
+    "s10": "P",
+    "s7": "EN",
+    "s2": "M",
+    "s1": "I",
+    "s0": "ND"
+  },
+  "solutions": [
+    {
+      "word": "KEEP",
+      "path": [
+        "s3",
+        "s4",
+        "s8",
+        "s11"
+      ]
+    },
+    {
+      "word": "AN",
+      "path": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "word": "OPEN",
+      "path": [
+        "s9",
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "word": "MIND",
+      "path": [
+        "s2",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

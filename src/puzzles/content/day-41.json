@@ -1,0 +1,56 @@
+{
+  "id": "day-41",
+  "title": "FIND NEW PATHS",
+  "layoutId": "layout-41",
+  "phrase": "FIND NEW PATHS",
+  "words": [
+    "FIND",
+    "NEW",
+    "PATHS"
+  ],
+  "letters": {
+    "s12": "F",
+    "s9": "I",
+    "s6": "N",
+    "s5": "D",
+    "s11": "N",
+    "s13": "E",
+    "s10": "W",
+    "s1": "P",
+    "s2": "A",
+    "s3": "T",
+    "s4": "H",
+    "s7": "S",
+    "s0": "SH",
+    "s8": "R"
+  },
+  "solutions": [
+    {
+      "word": "FIND",
+      "path": [
+        "s12",
+        "s9",
+        "s6",
+        "s5"
+      ]
+    },
+    {
+      "word": "NEW",
+      "path": [
+        "s11",
+        "s13",
+        "s10"
+      ]
+    },
+    {
+      "word": "PATHS",
+      "path": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s7"
+      ]
+    }
+  ]
+}

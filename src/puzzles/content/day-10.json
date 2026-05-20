@@ -1,59 +1,61 @@
 {
   "id": "day-10",
-  "title": "GO WITH THE FLOW",
+  "title": "MAKE ART EVERY DAY",
   "layoutId": "layout-10",
-  "phrase": "GO WITH THE FLOW",
+  "phrase": "MAKE ART EVERY DAY",
   "words": [
-    "GO",
-    "WITH",
-    "THE",
-    "FLOW"
+    "MAKE",
+    "ART",
+    "EVERY",
+    "DAY"
   ],
   "letters": {
-    "s10": "G",
-    "s11": "O",
-    "s8": "W",
-    "s9": "I",
-    "s6": "T",
-    "s3": "H",
-    "s5": "T",
-    "s0": "HE",
-    "s7": "FL",
-    "s4": "O",
-    "s2": "W",
-    "s1": "R",
-    "s12": "S"
+    "s9": "M",
+    "s8": "A",
+    "s5": "K",
+    "s6": "E",
+    "s2": "A",
+    "s4": "R",
+    "s1": "T",
+    "s7": "EV",
+    "s10": "E",
+    "s11": "R",
+    "s12": "Y",
+    "s0": "DA",
+    "s3": "Y"
   },
   "solutions": [
     {
-      "word": "GO",
+      "word": "MAKE",
       "path": [
-        "s10",
-        "s11"
-      ]
-    },
-    {
-      "word": "WITH",
-      "path": [
-        "s8",
         "s9",
-        "s6",
-        "s3"
-      ]
-    },
-    {
-      "word": "THE",
-      "path": [
+        "s8",
         "s5",
-        "s0"
+        "s6"
       ]
     },
     {
-      "word": "FLOW",
+      "word": "ART",
+      "path": [
+        "s2",
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "word": "EVERY",
       "path": [
         "s7",
-        "s4",
-        "s2"
+        "s10",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
+        "s0",
+        "s3"
       ]
     }
   ]

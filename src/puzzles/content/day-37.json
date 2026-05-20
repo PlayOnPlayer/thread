@@ -1,0 +1,53 @@
+{
+  "id": "day-37",
+  "title": "SIGN OF LIFE",
+  "layoutId": "layout-37",
+  "phrase": "SIGN OF LIFE",
+  "words": [
+    "SIGN",
+    "OF",
+    "LIFE"
+  ],
+  "letters": {
+    "s9": "S",
+    "s7": "I",
+    "s4": "G",
+    "s5": "N",
+    "s1": "O",
+    "s3": "F",
+    "s6": "L",
+    "s8": "I",
+    "s11": "F",
+    "s12": "E",
+    "s0": "SP",
+    "s2": "P",
+    "s10": "SH"
+  },
+  "solutions": [
+    {
+      "word": "SIGN",
+      "path": [
+        "s9",
+        "s7",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "word": "OF",
+      "path": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s6",
+        "s8",
+        "s11",
+        "s12"
+      ]
+    }
+  ]
+}

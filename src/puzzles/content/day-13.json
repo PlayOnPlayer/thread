@@ -1,53 +1,52 @@
 {
   "id": "day-13",
-  "title": "STAY IN FORM",
+  "title": "PLAY TO WIN",
   "layoutId": "layout-13",
-  "phrase": "STAY IN FORM",
+  "phrase": "PLAY TO WIN",
   "words": [
-    "STAY",
-    "IN",
-    "FORM"
+    "PLAY",
+    "TO",
+    "WIN"
   ],
   "letters": {
-    "s11": "S",
-    "s9": "T",
-    "s6": "A",
-    "s7": "Y",
-    "s12": "I",
-    "s13": "N",
-    "s2": "F",
-    "s4": "O",
-    "s10": "R",
-    "s8": "M",
-    "s0": "SP",
-    "s1": "P",
-    "s3": "Q",
-    "s5": "R"
+    "s8": "P",
+    "s7": "L",
+    "s9": "A",
+    "s11": "Y",
+    "s3": "T",
+    "s1": "O",
+    "s2": "W",
+    "s4": "I",
+    "s10": "N",
+    "s0": "SK",
+    "s5": "N",
+    "s6": "P",
+    "s12": "Q",
+    "s13": "R"
   },
   "solutions": [
     {
-      "word": "STAY",
+      "word": "PLAY",
       "path": [
-        "s11",
+        "s8",
+        "s7",
         "s9",
-        "s6",
-        "s7"
+        "s11"
       ]
     },
     {
-      "word": "IN",
+      "word": "TO",
       "path": [
-        "s12",
-        "s13"
+        "s3",
+        "s1"
       ]
     },
     {
-      "word": "FORM",
+      "word": "WIN",
       "path": [
         "s2",
         "s4",
-        "s10",
-        "s8"
+        "s10"
       ]
     }
   ]

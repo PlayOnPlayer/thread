@@ -1,0 +1,62 @@
+{
+  "id": "day-68",
+  "title": "LIVE LIFE OUT LOUD",
+  "layoutId": "layout-68",
+  "phrase": "LIVE LIFE OUT LOUD",
+  "words": [
+    "LIVE",
+    "LIFE",
+    "OUT",
+    "LOUD"
+  ],
+  "letters": {
+    "s4": "L",
+    "s3": "I",
+    "s6": "V",
+    "s9": "E",
+    "s12": "L",
+    "s10": "I",
+    "s7": "F",
+    "s2": "E",
+    "s1": "O",
+    "s0": "UT",
+    "s5": "L",
+    "s8": "OU",
+    "s11": "D"
+  },
+  "solutions": [
+    {
+      "word": "LIVE",
+      "path": [
+        "s4",
+        "s3",
+        "s6",
+        "s9"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s12",
+        "s10",
+        "s7",
+        "s2"
+      ]
+    },
+    {
+      "word": "OUT",
+      "path": [
+        "s1",
+        "s0"
+      ]
+    },
+    {
+      "word": "LOUD",
+      "path": [
+        "s5",
+        "s8",
+        "s11"
+      ]
+    }
+  ]
+}

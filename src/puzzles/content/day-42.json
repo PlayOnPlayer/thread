@@ -1,0 +1,57 @@
+{
+  "id": "day-42",
+  "title": "TAKE IT ONE DAY",
+  "layoutId": "layout-42",
+  "phrase": "TAKE IT ONE DAY",
+  "words": [
+    "TAKE",
+    "IT",
+    "ONE",
+    "DAY"
+  ],
+  "letters": {
+    "s8": "T",
+    "s7": "A",
+    "s9": "K",
+    "s10": "E",
+    "s1": "I",
+    "s2": "T",
+    "s5": "O",
+    "s0": "NE",
+    "s4": "DA",
+    "s3": "Y",
+    "s6": "SH"
+  },
+  "solutions": [
+    {
+      "word": "TAKE",
+      "path": [
+        "s8",
+        "s7",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "word": "IT",
+      "path": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "ONE",
+      "path": [
+        "s5",
+        "s0"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
+        "s4",
+        "s3"
+      ]
+    }
+  ]
+}

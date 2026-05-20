@@ -1,0 +1,50 @@
+{
+  "id": "day-53",
+  "title": "READ THE ROOM",
+  "layoutId": "layout-53",
+  "phrase": "READ THE ROOM",
+  "words": [
+    "READ",
+    "THE",
+    "ROOM"
+  ],
+  "letters": {
+    "s9": "R",
+    "s6": "E",
+    "s4": "A",
+    "s5": "D",
+    "s8": "T",
+    "s7": "HE",
+    "s1": "R",
+    "s0": "OO",
+    "s3": "M",
+    "s2": "CH",
+    "s10": "Q"
+  },
+  "solutions": [
+    {
+      "word": "READ",
+      "path": [
+        "s9",
+        "s6",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s8",
+        "s7"
+      ]
+    },
+    {
+      "word": "ROOM",
+      "path": [
+        "s1",
+        "s0",
+        "s3"
+      ]
+    }
+  ]
+}

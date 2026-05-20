@@ -1,0 +1,58 @@
+{
+  "id": "day-38",
+  "title": "SIGN OF THE TIMES",
+  "layoutId": "layout-38",
+  "phrase": "SIGN OF THE TIMES",
+  "words": [
+    "SIGN",
+    "OF",
+    "THE",
+    "TIMES"
+  ],
+  "letters": {
+    "s8": "S",
+    "s7": "I",
+    "s3": "G",
+    "s4": "N",
+    "s5": "O",
+    "s6": "F",
+    "s10": "T",
+    "s9": "HE",
+    "s2": "TI",
+    "s1": "M",
+    "s0": "ES"
+  },
+  "solutions": [
+    {
+      "word": "SIGN",
+      "path": [
+        "s8",
+        "s7",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "word": "OF",
+      "path": [
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s10",
+        "s9"
+      ]
+    },
+    {
+      "word": "TIMES",
+      "path": [
+        "s2",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

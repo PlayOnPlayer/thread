@@ -1,0 +1,58 @@
+{
+  "id": "day-30",
+  "title": "PLAY BY THE RULES",
+  "layoutId": "layout-30",
+  "phrase": "PLAY BY THE RULES",
+  "words": [
+    "PLAY",
+    "BY",
+    "THE",
+    "RULES"
+  ],
+  "letters": {
+    "s5": "P",
+    "s1": "L",
+    "s2": "A",
+    "s3": "Y",
+    "s9": "B",
+    "s10": "Y",
+    "s4": "T",
+    "s0": "HE",
+    "s7": "RU",
+    "s8": "L",
+    "s6": "ES"
+  },
+  "solutions": [
+    {
+      "word": "PLAY",
+      "path": [
+        "s5",
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "word": "BY",
+      "path": [
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s4",
+        "s0"
+      ]
+    },
+    {
+      "word": "RULES",
+      "path": [
+        "s7",
+        "s8",
+        "s6"
+      ]
+    }
+  ]
+}

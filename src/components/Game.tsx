@@ -1,13 +1,16 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { applyGuessResult, createInitialState, scoreGuess } from '../engine/guessScorer';
 import { getLegalNextTiles, isPathConnected, pathToLetters } from '../engine/seamGraph';
 import type { GameState, GuessResult, PuzzleDef, TileDef } from '../engine/types';
 import { getRandomPuzzle, puzzles } from '../puzzles';
 import { Board } from './Board';
+import { getPaginationItems } from './pagination';
 import { PhraseStrip } from './PhraseStrip';
+import { TriesDots } from './TriesDots';
 import './Game.css';
 
 const MAX_TRIES = 3;
+const WRONG_FEEDBACK_MS = 3000;
 
 function countsAsWrongTry(
   result: GuessResult,
@@ -41,18 +44,54 @@ export function Game() {
   const puzzle = useMemo(() => getPuzzleFromQuery(), []);
   const puzzleIndex = puzzles.findIndex((p) => p.id === puzzle.id);
   const activeLevel = puzzleIndex + 1;
+  const totalLevels = puzzles.length;
   const [state, setState] = useState<GameState>(() => createInitialState(puzzle));
   const [path, setPath] = useState<TileDef[]>([]);
   const [feedbackPath, setFeedbackPath] = useState<TileDef[]>([]);
   const [triesLeft, setTriesLeft] = useState(MAX_TRIES);
+  const [wrongFeedbackActive, setWrongFeedbackActive] = useState(false);
+  const wrongFeedbackTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const lost = triesLeft === 0 && !state.won;
   const gameOver = state.won || lost;
   const pathLetters = pathToLetters(path);
+  const paginationItems = useMemo(
+    () => getPaginationItems(activeLevel, totalLevels),
+    [activeLevel, totalLevels],
+  );
+
+  const dismissWrongFeedback = useCallback(() => {
+    if (wrongFeedbackTimerRef.current) {
+      clearTimeout(wrongFeedbackTimerRef.current);
+      wrongFeedbackTimerRef.current = null;
+    }
+    setWrongFeedbackActive(false);
+    setFeedbackPath([]);
+    setState((s) => (s.lastResult ? { ...s, lastResult: null } : s));
+  }, []);
+
+  const startWrongFeedback = useCallback(() => {
+    if (wrongFeedbackTimerRef.current) {
+      clearTimeout(wrongFeedbackTimerRef.current);
+    }
+    setWrongFeedbackActive(true);
+    wrongFeedbackTimerRef.current = setTimeout(() => {
+      wrongFeedbackTimerRef.current = null;
+      dismissWrongFeedback();
+    }, WRONG_FEEDBACK_MS);
+  }, [dismissWrongFeedback]);
+
+  useEffect(() => {
+    return () => {
+      if (wrongFeedbackTimerRef.current) {
+        clearTimeout(wrongFeedbackTimerRef.current);
+      }
+    };
+  }, []);
 
   const handleTileClick = useCallback(
     (tile: TileDef) => {
-      if (gameOver) return;
+      if (gameOver || wrongFeedbackActive) return;
 
       setFeedbackPath([]);
       setPath((prev) => {
@@ -77,16 +116,19 @@ export function Game() {
         return [...prev, tile];
       });
     },
-    [gameOver, puzzle.tiles],
+    [gameOver, wrongFeedbackActive, puzzle.tiles],
   );
 
   const clearPath = useCallback(() => {
+    if (wrongFeedbackActive) {
+      dismissWrongFeedback();
+    }
     setPath([]);
     setFeedbackPath([]);
-  }, []);
+  }, [wrongFeedbackActive, dismissWrongFeedback]);
 
   const submitGuess = () => {
-    if (path.length === 0 || gameOver) return;
+    if (path.length === 0 || gameOver || wrongFeedbackActive) return;
     if (!isPathConnected(path, puzzle.tiles)) return;
 
     const result = scoreGuess(state, path);
@@ -102,6 +144,7 @@ export function Game() {
     } else {
       setFeedbackPath([...path]);
       setPath([]);
+      startWrongFeedback();
     }
   };
 
@@ -127,6 +170,9 @@ export function Game() {
     [gameOver, clearPath],
   );
 
+  const canClear = path.length > 0 || wrongFeedbackActive;
+  const canSubmit = path.length > 0 && !gameOver && !wrongFeedbackActive;
+
   return (
     <div className="game" onClick={handleClearSelection}>
       <header className="game__header">
@@ -144,6 +190,7 @@ export function Game() {
         onTileClick={handleTileClick}
         lastResult={path.length > 0 ? null : state.lastResult}
         disabled={gameOver}
+        wrongFeedbackActive={wrongFeedbackActive}
         lost={lost}
         won={state.won}
       />
@@ -160,28 +207,19 @@ export function Game() {
             </span>
           )}
         </div>
-        <p className={`game__tries ${state.won ? 'game__slot--hidden' : ''}`}>
-          Tries Left: <span className="game__tries-count">{triesLeft}</span>
-        </p>
-        <div className="game__buttons-wrap">
-          {state.won ? (
-            <p className="game__solved">
-              Solved in {state.guesses} {state.guesses === 1 ? 'try' : 'tries'}
-            </p>
-          ) : null}
-          <div className="game__buttons">
-            <button type="button" onClick={clearPath} disabled={path.length === 0 || gameOver}>
-              Clear
-            </button>
-            <button
-              type="button"
-              className="game__submit"
-              onClick={submitGuess}
-              disabled={path.length === 0 || gameOver}
-            >
-              Submit
-            </button>
-          </div>
+        <TriesDots triesLeft={triesLeft} maxTries={MAX_TRIES} hidden={state.won} />
+        <div className="game__buttons">
+          <button type="button" onClick={clearPath} disabled={!canClear || gameOver}>
+            Clear
+          </button>
+          <button
+            type="button"
+            className="game__submit"
+            onClick={submitGuess}
+            disabled={!canSubmit}
+          >
+            Submit
+          </button>
         </div>
       </div>
 
@@ -189,20 +227,49 @@ export function Game() {
 
       <footer className="game__footer">
         <nav className="game__pagination" aria-label="Level pagination">
-          {puzzles.map((p, index) => {
-            const level = index + 1;
-            return (
+          {activeLevel > 1 ? (
+            <a
+              className="game__page-arrow"
+              href={`?level=${activeLevel - 1}`}
+              aria-label="Previous level"
+            >
+              &lt;
+            </a>
+          ) : (
+            <span className="game__page-arrow game__page-arrow--disabled" aria-hidden>
+              &lt;
+            </span>
+          )}
+          {paginationItems.map((item, index) =>
+            item.type === 'ellipsis' ? (
+              <span key={`ellipsis-${index}`} className="game__page-ellipsis" aria-hidden>
+                …
+              </span>
+            ) : (
               <a
-                key={p.id}
-                className={`game__page-link ${level === activeLevel ? 'game__page-link--active' : ''}`}
-                href={`?level=${level}`}
-                aria-current={level === activeLevel ? 'page' : undefined}
-                aria-label={`Level ${level}`}
+                key={item.level}
+                className={`game__page-link ${item.level === activeLevel ? 'game__page-link--active' : ''}`}
+                href={`?level=${item.level}`}
+                aria-current={item.level === activeLevel ? 'page' : undefined}
+                aria-label={`Level ${item.level}`}
               >
-                {level}
+                {item.level}
               </a>
-            );
-          })}
+            ),
+          )}
+          {activeLevel < totalLevels ? (
+            <a
+              className="game__page-arrow"
+              href={`?level=${activeLevel + 1}`}
+              aria-label="Next level"
+            >
+              &gt;
+            </a>
+          ) : (
+            <span className="game__page-arrow game__page-arrow--disabled" aria-hidden>
+              &gt;
+            </span>
+          )}
         </nav>
       </footer>
     </div>

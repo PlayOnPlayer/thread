@@ -1,0 +1,53 @@
+{
+  "id": "day-29",
+  "title": "RIDE THE STORM",
+  "layoutId": "layout-29",
+  "phrase": "RIDE THE STORM",
+  "words": [
+    "RIDE",
+    "THE",
+    "STORM"
+  ],
+  "letters": {
+    "s4": "R",
+    "s8": "I",
+    "s5": "D",
+    "s6": "E",
+    "s10": "T",
+    "s7": "H",
+    "s11": "E",
+    "s2": "ST",
+    "s1": "O",
+    "s0": "RM",
+    "s3": "Q",
+    "s9": "R",
+    "s12": "S"
+  },
+  "solutions": [
+    {
+      "word": "RIDE",
+      "path": [
+        "s4",
+        "s8",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s10",
+        "s7",
+        "s11"
+      ]
+    },
+    {
+      "word": "STORM",
+      "path": [
+        "s2",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

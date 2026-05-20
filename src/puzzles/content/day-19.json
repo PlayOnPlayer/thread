@@ -1,48 +1,49 @@
 {
   "id": "day-19",
-  "title": "DO YOUR BEST",
+  "title": "SEIZE THE DAY",
   "layoutId": "layout-19",
-  "phrase": "DO YOUR BEST",
+  "phrase": "SEIZE THE DAY",
   "words": [
-    "DO",
-    "YOUR",
-    "BEST"
+    "SEIZE",
+    "THE",
+    "DAY"
   ],
   "letters": {
-    "s11": "D",
-    "s8": "O",
-    "s6": "Y",
-    "s3": "O",
-    "s4": "U",
-    "s1": "R",
-    "s9": "B",
-    "s5": "E",
-    "s2": "ST",
-    "s0": "SP",
-    "s7": "P",
-    "s10": "Q"
+    "s4": "S",
+    "s9": "E",
+    "s11": "I",
+    "s8": "Z",
+    "s10": "E",
+    "s7": "T",
+    "s6": "H",
+    "s3": "E",
+    "s5": "D",
+    "s2": "AY",
+    "s0": "CH",
+    "s1": "Q"
   },
   "solutions": [
     {
-      "word": "DO",
+      "word": "SEIZE",
       "path": [
-        "s11",
-        "s8"
-      ]
-    },
-    {
-      "word": "YOUR",
-      "path": [
-        "s6",
-        "s3",
         "s4",
-        "s1"
+        "s9",
+        "s11",
+        "s8",
+        "s10"
       ]
     },
     {
-      "word": "BEST",
+      "word": "THE",
       "path": [
-        "s9",
+        "s7",
+        "s6",
+        "s3"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
         "s5",
         "s2"
       ]

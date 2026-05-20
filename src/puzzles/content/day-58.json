@@ -1,0 +1,61 @@
+{
+  "id": "day-58",
+  "title": "RUN FOR YOUR LIFE",
+  "layoutId": "layout-58",
+  "phrase": "RUN FOR YOUR LIFE",
+  "words": [
+    "RUN",
+    "FOR",
+    "YOUR",
+    "LIFE"
+  ],
+  "letters": {
+    "s4": "R",
+    "s2": "U",
+    "s1": "N",
+    "s9": "F",
+    "s12": "O",
+    "s11": "R",
+    "s6": "Y",
+    "s0": "OU",
+    "s5": "R",
+    "s8": "L",
+    "s7": "IF",
+    "s3": "E",
+    "s10": "S"
+  },
+  "solutions": [
+    {
+      "word": "RUN",
+      "path": [
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "FOR",
+      "path": [
+        "s9",
+        "s12",
+        "s11"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s6",
+        "s0",
+        "s5"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s8",
+        "s7",
+        "s3"
+      ]
+    }
+  ]
+}

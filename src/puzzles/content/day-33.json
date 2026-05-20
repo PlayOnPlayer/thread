@@ -1,0 +1,53 @@
+{
+  "id": "day-33",
+  "title": "ONE BY ONE",
+  "layoutId": "layout-33",
+  "phrase": "ONE BY ONE",
+  "words": [
+    "ONE",
+    "BY",
+    "ONE"
+  ],
+  "letters": {
+    "s6": "O",
+    "s12": "N",
+    "s9": "E",
+    "s11": "B",
+    "s14": "Y",
+    "s2": "O",
+    "s1": "N",
+    "s4": "E",
+    "s0": "TR",
+    "s3": "M",
+    "s5": "N",
+    "s7": "P",
+    "s8": "Q",
+    "s10": "R",
+    "s13": "S"
+  },
+  "solutions": [
+    {
+      "word": "ONE",
+      "path": [
+        "s6",
+        "s12",
+        "s9"
+      ]
+    },
+    {
+      "word": "BY",
+      "path": [
+        "s11",
+        "s14"
+      ]
+    },
+    {
+      "word": "ONE",
+      "path": [
+        "s2",
+        "s1",
+        "s4"
+      ]
+    }
+  ]
+}

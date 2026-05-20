@@ -1,59 +1,57 @@
 {
   "id": "day-22",
-  "title": "KEEP YOUR HEAD UP",
+  "title": "DO WHAT YOU CAN",
   "layoutId": "layout-22",
-  "phrase": "KEEP YOUR HEAD UP",
+  "phrase": "DO WHAT YOU CAN",
   "words": [
-    "KEEP",
-    "YOUR",
-    "HEAD",
-    "UP"
+    "DO",
+    "WHAT",
+    "YOU",
+    "CAN"
   ],
   "letters": {
-    "s11": "K",
-    "s10": "E",
-    "s4": "E",
-    "s6": "P",
+    "s4": "D",
+    "s6": "O",
+    "s1": "W",
+    "s2": "H",
+    "s7": "A",
+    "s10": "T",
     "s0": "YO",
-    "s1": "U",
-    "s3": "R",
-    "s9": "HE",
-    "s5": "A",
-    "s8": "D",
-    "s7": "U",
-    "s2": "P"
+    "s3": "U",
+    "s11": "C",
+    "s9": "AN",
+    "s5": "Q",
+    "s8": "R"
   },
   "solutions": [
     {
-      "word": "KEEP",
+      "word": "DO",
       "path": [
-        "s11",
-        "s10",
         "s4",
         "s6"
       ]
     },
     {
-      "word": "YOUR",
+      "word": "WHAT",
+      "path": [
+        "s1",
+        "s2",
+        "s7",
+        "s10"
+      ]
+    },
+    {
+      "word": "YOU",
       "path": [
         "s0",
-        "s1",
         "s3"
       ]
     },
     {
-      "word": "HEAD",
+      "word": "CAN",
       "path": [
-        "s9",
-        "s5",
-        "s8"
-      ]
-    },
-    {
-      "word": "UP",
-      "path": [
-        "s7",
-        "s2"
+        "s11",
+        "s9"
       ]
     }
   ]

@@ -1,0 +1,51 @@
+{
+  "id": "day-27",
+  "title": "AIM FOR MORE",
+  "layoutId": "layout-27",
+  "phrase": "AIM FOR MORE",
+  "words": [
+    "AIM",
+    "FOR",
+    "MORE"
+  ],
+  "letters": {
+    "s3": "A",
+    "s4": "I",
+    "s2": "M",
+    "s10": "F",
+    "s9": "O",
+    "s6": "R",
+    "s5": "M",
+    "s0": "OR",
+    "s1": "E",
+    "s7": "N",
+    "s8": "CH",
+    "s11": "Q"
+  },
+  "solutions": [
+    {
+      "word": "AIM",
+      "path": [
+        "s3",
+        "s4",
+        "s2"
+      ]
+    },
+    {
+      "word": "FOR",
+      "path": [
+        "s10",
+        "s9",
+        "s6"
+      ]
+    },
+    {
+      "word": "MORE",
+      "path": [
+        "s5",
+        "s0",
+        "s1"
+      ]
+    }
+  ]
+}

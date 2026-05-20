@@ -1,46 +1,47 @@
 {
   "id": "day-15",
-  "title": "FIND A WAY",
+  "title": "KEEP CALM ON",
   "layoutId": "layout-15",
-  "phrase": "FIND A WAY",
+  "phrase": "KEEP CALM ON",
   "words": [
-    "FIND",
-    "A",
-    "WAY"
+    "KEEP",
+    "CALM",
+    "ON"
   ],
   "letters": {
-    "s9": "F",
-    "s4": "I",
-    "s7": "N",
-    "s5": "D",
-    "s1": "A",
-    "s3": "W",
-    "s6": "AY",
-    "s0": "TR",
-    "s2": "SK",
-    "s8": "N"
+    "s1": "K",
+    "s4": "E",
+    "s7": "E",
+    "s9": "P",
+    "s2": "CA",
+    "s5": "L",
+    "s8": "M",
+    "s0": "ON",
+    "s3": "N",
+    "s6": "CH"
   },
   "solutions": [
     {
-      "word": "FIND",
+      "word": "KEEP",
       "path": [
-        "s9",
+        "s1",
         "s4",
         "s7",
-        "s5"
+        "s9"
       ]
     },
     {
-      "word": "A",
+      "word": "CALM",
       "path": [
-        "s1"
+        "s2",
+        "s5",
+        "s8"
       ]
     },
     {
-      "word": "WAY",
+      "word": "ON",
       "path": [
-        "s3",
-        "s6"
+        "s0"
       ]
     }
   ]

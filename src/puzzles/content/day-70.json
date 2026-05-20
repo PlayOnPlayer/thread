@@ -1,0 +1,62 @@
+{
+  "id": "day-70",
+  "title": "TAKE THE HIGH ROAD",
+  "layoutId": "layout-70",
+  "phrase": "TAKE THE HIGH ROAD",
+  "words": [
+    "TAKE",
+    "THE",
+    "HIGH",
+    "ROAD"
+  ],
+  "letters": {
+    "s6": "T",
+    "s5": "A",
+    "s11": "K",
+    "s9": "E",
+    "s8": "T",
+    "s3": "H",
+    "s4": "E",
+    "s2": "H",
+    "s1": "I",
+    "s0": "GH",
+    "s12": "R",
+    "s10": "OA",
+    "s7": "D"
+  },
+  "solutions": [
+    {
+      "word": "TAKE",
+      "path": [
+        "s6",
+        "s5",
+        "s11",
+        "s9"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s8",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "word": "HIGH",
+      "path": [
+        "s2",
+        "s1",
+        "s0"
+      ]
+    },
+    {
+      "word": "ROAD",
+      "path": [
+        "s12",
+        "s10",
+        "s7"
+      ]
+    }
+  ]
+}

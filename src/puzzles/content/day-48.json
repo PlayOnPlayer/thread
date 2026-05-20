@@ -1,0 +1,52 @@
+{
+  "id": "day-48",
+  "title": "STAY ONE AHEAD",
+  "layoutId": "layout-48",
+  "phrase": "STAY ONE AHEAD",
+  "words": [
+    "STAY",
+    "ONE",
+    "AHEAD"
+  ],
+  "letters": {
+    "s3": "S",
+    "s1": "T",
+    "s4": "A",
+    "s6": "Y",
+    "s11": "O",
+    "s9": "N",
+    "s10": "E",
+    "s8": "AH",
+    "s5": "E",
+    "s0": "AD",
+    "s2": "Q",
+    "s7": "R"
+  },
+  "solutions": [
+    {
+      "word": "STAY",
+      "path": [
+        "s3",
+        "s1",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "word": "ONE",
+      "path": [
+        "s11",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "word": "AHEAD",
+      "path": [
+        "s8",
+        "s5",
+        "s0"
+      ]
+    }
+  ]
+}

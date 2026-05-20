@@ -1,0 +1,62 @@
+{
+  "id": "day-72",
+  "title": "FIND THE RIGHT WAY",
+  "layoutId": "layout-72",
+  "phrase": "FIND THE RIGHT WAY",
+  "words": [
+    "FIND",
+    "THE",
+    "RIGHT",
+    "WAY"
+  ],
+  "letters": {
+    "s6": "F",
+    "s7": "I",
+    "s4": "N",
+    "s3": "D",
+    "s11": "T",
+    "s12": "H",
+    "s8": "E",
+    "s5": "R",
+    "s2": "I",
+    "s1": "G",
+    "s0": "HT",
+    "s10": "W",
+    "s9": "AY"
+  },
+  "solutions": [
+    {
+      "word": "FIND",
+      "path": [
+        "s6",
+        "s7",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s11",
+        "s12",
+        "s8"
+      ]
+    },
+    {
+      "word": "RIGHT",
+      "path": [
+        "s5",
+        "s2",
+        "s1",
+        "s0"
+      ]
+    },
+    {
+      "word": "WAY",
+      "path": [
+        "s10",
+        "s9"
+      ]
+    }
+  ]
+}

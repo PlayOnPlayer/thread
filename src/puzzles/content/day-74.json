@@ -1,0 +1,52 @@
+{
+  "id": "day-74",
+  "title": "KEEP THE FAITH",
+  "layoutId": "layout-74",
+  "phrase": "KEEP THE FAITH",
+  "words": [
+    "KEEP",
+    "THE",
+    "FAITH"
+  ],
+  "letters": {
+    "s5": "K",
+    "s9": "E",
+    "s10": "E",
+    "s8": "P",
+    "s3": "T",
+    "s0": "HE",
+    "s11": "F",
+    "s6": "A",
+    "s2": "IT",
+    "s1": "H",
+    "s4": "Q",
+    "s7": "R"
+  },
+  "solutions": [
+    {
+      "word": "KEEP",
+      "path": [
+        "s5",
+        "s9",
+        "s10",
+        "s8"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s3",
+        "s0"
+      ]
+    },
+    {
+      "word": "FAITH",
+      "path": [
+        "s11",
+        "s6",
+        "s2",
+        "s1"
+      ]
+    }
+  ]
+}

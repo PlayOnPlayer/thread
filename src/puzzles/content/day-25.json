@@ -1,50 +1,49 @@
 {
   "id": "day-25",
-  "title": "MAKE A PLAN",
+  "title": "BUILD IT UP",
   "layoutId": "layout-25",
-  "phrase": "MAKE A PLAN",
+  "phrase": "BUILD IT UP",
   "words": [
-    "MAKE",
-    "A",
-    "PLAN"
+    "BUILD",
+    "IT",
+    "UP"
   ],
   "letters": {
-    "s2": "M",
-    "s4": "A",
-    "s3": "K",
-    "s1": "E",
-    "s9": "A",
-    "s5": "P",
-    "s8": "L",
-    "s10": "A",
-    "s11": "N",
+    "s11": "B",
+    "s9": "U",
+    "s4": "I",
+    "s2": "L",
+    "s3": "D",
+    "s10": "I",
+    "s8": "T",
+    "s6": "UP",
     "s0": "SK",
-    "s6": "SP",
-    "s7": "P"
+    "s1": "N",
+    "s5": "P",
+    "s7": "Q"
   },
   "solutions": [
     {
-      "word": "MAKE",
+      "word": "BUILD",
       "path": [
-        "s2",
+        "s11",
+        "s9",
         "s4",
-        "s3",
-        "s1"
+        "s2",
+        "s3"
       ]
     },
     {
-      "word": "A",
+      "word": "IT",
       "path": [
-        "s9"
-      ]
-    },
-    {
-      "word": "PLAN",
-      "path": [
-        "s5",
-        "s8",
         "s10",
-        "s11"
+        "s8"
+      ]
+    },
+    {
+      "word": "UP",
+      "path": [
+        "s6"
       ]
     }
   ]

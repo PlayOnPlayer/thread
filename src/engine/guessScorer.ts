@@ -33,12 +33,18 @@ function scoreTiles(
   target: WordSolution | undefined,
   candidateSolutions: WordSolution[],
 ): TileFeedback[] {
-  const solutionTiles = new Set(
-    candidateSolutions.flatMap((s) => s.path),
-  );
-
   if (!target) {
-    return path.map((t) => (solutionTiles.has(t.id) ? 'ghost' : 'dead'));
+    const solutionTiles = new Set(candidateSolutions.flatMap((s) => s.path));
+    return path.map((tile, i) => {
+      for (const sol of candidateSolutions) {
+        const solutionIndex = sol.path.indexOf(tile.id);
+        if (solutionIndex === i && sol.path[solutionIndex] === tile.id) {
+          return 'perfect';
+        }
+      }
+      if (solutionTiles.has(tile.id)) return 'ghost';
+      return 'dead';
+    });
   }
 
   const targetPath = target.path;
@@ -96,11 +102,15 @@ export function scoreGuess(
   const solutionForGuess = findSolutionForWord(unrevealedSolutions, letters);
   const feedbackSolution = acceptedPathSolution ?? solutionForGuess;
 
-  const tileFeedback = scoreTiles(
+  let tileFeedback = scoreTiles(
     path,
     connected ? feedbackSolution : undefined,
     unrevealedSolutions,
   );
+
+  if (matchingWordIndex !== null) {
+    tileFeedback = path.map(() => 'perfect');
+  }
   const seamFeedback = scoreSeams(path, connected ? feedbackSolution : undefined, puzzle.tiles);
 
   let phraseFeedback: GuessResult['phraseFeedback'] = null;

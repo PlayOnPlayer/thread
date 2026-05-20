@@ -1,0 +1,50 @@
+{
+  "id": "day-50",
+  "title": "FIND A WAY",
+  "layoutId": "layout-50",
+  "phrase": "FIND A WAY",
+  "words": [
+    "FIND",
+    "A",
+    "WAY"
+  ],
+  "letters": {
+    "s3": "F",
+    "s1": "I",
+    "s4": "N",
+    "s7": "D",
+    "s11": "A",
+    "s8": "W",
+    "s5": "A",
+    "s6": "Y",
+    "s0": "TR",
+    "s2": "M",
+    "s9": "SP",
+    "s10": "P"
+  },
+  "solutions": [
+    {
+      "word": "FIND",
+      "path": [
+        "s3",
+        "s1",
+        "s4",
+        "s7"
+      ]
+    },
+    {
+      "word": "A",
+      "path": [
+        "s11"
+      ]
+    },
+    {
+      "word": "WAY",
+      "path": [
+        "s8",
+        "s5",
+        "s6"
+      ]
+    }
+  ]
+}

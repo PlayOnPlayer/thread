@@ -1,0 +1,51 @@
+{
+  "id": "day-31",
+  "title": "FIND THE KEY",
+  "layoutId": "layout-31",
+  "phrase": "FIND THE KEY",
+  "words": [
+    "FIND",
+    "THE",
+    "KEY"
+  ],
+  "letters": {
+    "s1": "F",
+    "s2": "I",
+    "s4": "N",
+    "s6": "D",
+    "s5": "T",
+    "s8": "H",
+    "s11": "E",
+    "s10": "K",
+    "s9": "EY",
+    "s0": "SP",
+    "s3": "P",
+    "s7": "Q"
+  },
+  "solutions": [
+    {
+      "word": "FIND",
+      "path": [
+        "s1",
+        "s2",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s5",
+        "s8",
+        "s11"
+      ]
+    },
+    {
+      "word": "KEY",
+      "path": [
+        "s10",
+        "s9"
+      ]
+    }
+  ]
+}

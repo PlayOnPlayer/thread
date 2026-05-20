@@ -1,0 +1,52 @@
+{
+  "id": "day-55",
+  "title": "FEEL THE BEAT",
+  "layoutId": "layout-55",
+  "phrase": "FEEL THE BEAT",
+  "words": [
+    "FEEL",
+    "THE",
+    "BEAT"
+  ],
+  "letters": {
+    "s6": "F",
+    "s5": "E",
+    "s8": "E",
+    "s9": "L",
+    "s1": "T",
+    "s2": "H",
+    "s3": "E",
+    "s10": "B",
+    "s11": "E",
+    "s7": "AT",
+    "s0": "CH",
+    "s4": "Q"
+  },
+  "solutions": [
+    {
+      "word": "FEEL",
+      "path": [
+        "s6",
+        "s5",
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "word": "BEAT",
+      "path": [
+        "s10",
+        "s11",
+        "s7"
+      ]
+    }
+  ]
+}

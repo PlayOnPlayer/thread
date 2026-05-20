@@ -1,0 +1,52 @@
+{
+  "id": "day-69",
+  "title": "STAY IN FORM",
+  "layoutId": "layout-69",
+  "phrase": "STAY IN FORM",
+  "words": [
+    "STAY",
+    "IN",
+    "FORM"
+  ],
+  "letters": {
+    "s8": "S",
+    "s2": "T",
+    "s4": "A",
+    "s3": "Y",
+    "s6": "I",
+    "s7": "N",
+    "s10": "F",
+    "s12": "O",
+    "s9": "RM",
+    "s0": "SP",
+    "s1": "P",
+    "s5": "Q",
+    "s11": "R"
+  },
+  "solutions": [
+    {
+      "word": "STAY",
+      "path": [
+        "s8",
+        "s2",
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "word": "FORM",
+      "path": [
+        "s10",
+        "s12",
+        "s9"
+      ]
+    }
+  ]
+}

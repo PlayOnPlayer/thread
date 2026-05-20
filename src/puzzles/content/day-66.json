@@ -1,0 +1,59 @@
+{
+  "id": "day-66",
+  "title": "STAY IN THE GAME",
+  "layoutId": "layout-66",
+  "phrase": "STAY IN THE GAME",
+  "words": [
+    "STAY",
+    "IN",
+    "THE",
+    "GAME"
+  ],
+  "letters": {
+    "s9": "S",
+    "s6": "T",
+    "s3": "A",
+    "s5": "Y",
+    "s2": "I",
+    "s1": "N",
+    "s4": "T",
+    "s0": "HE",
+    "s11": "G",
+    "s10": "A",
+    "s8": "ME",
+    "s7": "R"
+  },
+  "solutions": [
+    {
+      "word": "STAY",
+      "path": [
+        "s9",
+        "s6",
+        "s3",
+        "s5"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s4",
+        "s0"
+      ]
+    },
+    {
+      "word": "GAME",
+      "path": [
+        "s11",
+        "s10",
+        "s8"
+      ]
+    }
+  ]
+}

@@ -1,59 +1,59 @@
 {
   "id": "day-14",
-  "title": "GIVE IT YOUR ALL",
+  "title": "TAKE CARE OF YOU",
   "layoutId": "layout-14",
-  "phrase": "GIVE IT YOUR ALL",
+  "phrase": "TAKE CARE OF YOU",
   "words": [
-    "GIVE",
-    "IT",
-    "YOUR",
-    "ALL"
+    "TAKE",
+    "CARE",
+    "OF",
+    "YOU"
   ],
   "letters": {
-    "s2": "G",
-    "s5": "I",
-    "s8": "V",
-    "s4": "E",
-    "s11": "I",
     "s6": "T",
-    "s3": "Y",
-    "s0": "OU",
-    "s1": "R",
-    "s12": "A",
-    "s10": "LL",
-    "s7": "R",
-    "s9": "S"
+    "s7": "A",
+    "s8": "K",
+    "s4": "E",
+    "s10": "CA",
+    "s9": "R",
+    "s12": "E",
+    "s2": "O",
+    "s1": "F",
+    "s0": "YO",
+    "s3": "U",
+    "s5": "R",
+    "s11": "S"
   },
   "solutions": [
     {
-      "word": "GIVE",
+      "word": "TAKE",
       "path": [
-        "s2",
-        "s5",
+        "s6",
+        "s7",
         "s8",
         "s4"
       ]
     },
     {
-      "word": "IT",
+      "word": "CARE",
       "path": [
-        "s11",
-        "s6"
+        "s10",
+        "s9",
+        "s12"
       ]
     },
     {
-      "word": "YOUR",
+      "word": "OF",
       "path": [
-        "s3",
-        "s0",
+        "s2",
         "s1"
       ]
     },
     {
-      "word": "ALL",
+      "word": "YOU",
       "path": [
-        "s12",
-        "s10"
+        "s0",
+        "s3"
       ]
     }
   ]

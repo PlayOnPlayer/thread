@@ -1,0 +1,62 @@
+{
+  "id": "day-28",
+  "title": "LIVE FOR THE DAY",
+  "layoutId": "layout-28",
+  "phrase": "LIVE FOR THE DAY",
+  "words": [
+    "LIVE",
+    "FOR",
+    "THE",
+    "DAY"
+  ],
+  "letters": {
+    "s10": "L",
+    "s11": "I",
+    "s7": "V",
+    "s6": "E",
+    "s4": "F",
+    "s2": "O",
+    "s1": "R",
+    "s9": "T",
+    "s12": "H",
+    "s5": "E",
+    "s0": "DA",
+    "s3": "Y",
+    "s8": "R",
+    "s13": "S"
+  },
+  "solutions": [
+    {
+      "word": "LIVE",
+      "path": [
+        "s10",
+        "s11",
+        "s7",
+        "s6"
+      ]
+    },
+    {
+      "word": "FOR",
+      "path": [
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s9",
+        "s12",
+        "s5"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
+        "s0",
+        "s3"
+      ]
+    }
+  ]
+}

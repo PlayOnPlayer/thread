@@ -1,59 +1,60 @@
 {
   "id": "day-24",
-  "title": "WORD TO THE WISE",
+  "title": "ONE STEP AT TIME",
   "layoutId": "layout-24",
-  "phrase": "WORD TO THE WISE",
+  "phrase": "ONE STEP AT TIME",
   "words": [
-    "WORD",
-    "TO",
-    "THE",
-    "WISE"
+    "ONE",
+    "STEP",
+    "AT",
+    "TIME"
   ],
   "letters": {
-    "s4": "W",
-    "s5": "O",
-    "s8": "R",
-    "s11": "D",
-    "s10": "T",
     "s7": "O",
+    "s4": "N",
+    "s10": "E",
+    "s8": "S",
     "s6": "T",
-    "s2": "HE",
-    "s1": "W",
-    "s0": "IS",
-    "s3": "E",
-    "s9": "R",
-    "s12": "S"
+    "s5": "E",
+    "s1": "P",
+    "s11": "A",
+    "s12": "T",
+    "s0": "TI",
+    "s3": "M",
+    "s9": "E",
+    "s2": "QU"
   },
   "solutions": [
     {
-      "word": "WORD",
+      "word": "ONE",
       "path": [
+        "s7",
         "s4",
-        "s5",
+        "s10"
+      ]
+    },
+    {
+      "word": "STEP",
+      "path": [
         "s8",
-        "s11"
-      ]
-    },
-    {
-      "word": "TO",
-      "path": [
-        "s10",
-        "s7"
-      ]
-    },
-    {
-      "word": "THE",
-      "path": [
         "s6",
-        "s2"
+        "s5",
+        "s1"
       ]
     },
     {
-      "word": "WISE",
+      "word": "AT",
       "path": [
-        "s1",
+        "s11",
+        "s12"
+      ]
+    },
+    {
+      "word": "TIME",
+      "path": [
         "s0",
-        "s3"
+        "s3",
+        "s9"
       ]
     }
   ]

@@ -1,0 +1,51 @@
+{
+  "id": "day-44",
+  "title": "SING YOUR SONG",
+  "layoutId": "layout-44",
+  "phrase": "SING YOUR SONG",
+  "words": [
+    "SING",
+    "YOUR",
+    "SONG"
+  ],
+  "letters": {
+    "s1": "S",
+    "s4": "I",
+    "s5": "N",
+    "s8": "G",
+    "s7": "YO",
+    "s9": "U",
+    "s10": "R",
+    "s6": "S",
+    "s3": "O",
+    "s0": "NG",
+    "s2": "SH"
+  },
+  "solutions": [
+    {
+      "word": "SING",
+      "path": [
+        "s1",
+        "s4",
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s7",
+        "s9",
+        "s10"
+      ]
+    },
+    {
+      "word": "SONG",
+      "path": [
+        "s6",
+        "s3",
+        "s0"
+      ]
+    }
+  ]
+}

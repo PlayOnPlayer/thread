@@ -1,46 +1,47 @@
 {
   "id": "day-11",
-  "title": "HIT THE ROAD",
+  "title": "GROW EVERY DAY",
   "layoutId": "layout-11",
-  "phrase": "HIT THE ROAD",
+  "phrase": "GROW EVERY DAY",
   "words": [
-    "HIT",
-    "THE",
-    "ROAD"
+    "GROW",
+    "EVERY",
+    "DAY"
   ],
   "letters": {
-    "s4": "H",
-    "s5": "I",
-    "s8": "T",
-    "s7": "TH",
-    "s9": "E",
-    "s1": "R",
-    "s2": "OA",
-    "s6": "D",
-    "s0": "SP",
-    "s3": "P",
-    "s10": "Q"
+    "s1": "G",
+    "s4": "R",
+    "s5": "O",
+    "s8": "W",
+    "s7": "EV",
+    "s3": "E",
+    "s0": "RY",
+    "s2": "DA",
+    "s6": "Y",
+    "s9": "Q",
+    "s10": "R"
   },
   "solutions": [
     {
-      "word": "HIT",
+      "word": "GROW",
       "path": [
+        "s1",
         "s4",
         "s5",
         "s8"
       ]
     },
     {
-      "word": "THE",
+      "word": "EVERY",
       "path": [
         "s7",
-        "s9"
+        "s3",
+        "s0"
       ]
     },
     {
-      "word": "ROAD",
+      "word": "DAY",
       "path": [
-        "s1",
         "s2",
         "s6"
       ]

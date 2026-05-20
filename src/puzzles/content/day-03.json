@@ -1,51 +1,50 @@
 {
   "id": "day-03",
-  "title": "DOWN TO EARTH",
+  "title": "HIT THE ROAD",
   "layoutId": "layout-03",
-  "phrase": "DOWN TO EARTH",
+  "phrase": "HIT THE ROAD",
   "words": [
-    "DOWN",
-    "TO",
-    "EARTH"
+    "HIT",
+    "THE",
+    "ROAD"
   ],
   "letters": {
-    "s3": "D",
-    "s6": "O",
-    "s5": "W",
-    "s10": "N",
+    "s9": "H",
+    "s8": "I",
+    "s11": "T",
     "s1": "T",
-    "s2": "O",
-    "s11": "E",
-    "s8": "A",
-    "s9": "R",
-    "s4": "TH",
-    "s0": "CH",
+    "s0": "HE",
+    "s3": "R",
+    "s6": "O",
+    "s5": "A",
+    "s10": "D",
+    "s2": "N",
+    "s4": "CH",
     "s7": "SH"
   },
   "solutions": [
     {
-      "word": "DOWN",
+      "word": "HIT",
+      "path": [
+        "s9",
+        "s8",
+        "s11"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s1",
+        "s0"
+      ]
+    },
+    {
+      "word": "ROAD",
       "path": [
         "s3",
         "s6",
         "s5",
         "s10"
-      ]
-    },
-    {
-      "word": "TO",
-      "path": [
-        "s1",
-        "s2"
-      ]
-    },
-    {
-      "word": "EARTH",
-      "path": [
-        "s11",
-        "s8",
-        "s9",
-        "s4"
       ]
     }
   ]

@@ -1,0 +1,52 @@
+{
+  "id": "day-39",
+  "title": "CATCH THE WAVE",
+  "layoutId": "layout-39",
+  "phrase": "CATCH THE WAVE",
+  "words": [
+    "CATCH",
+    "THE",
+    "WAVE"
+  ],
+  "letters": {
+    "s1": "C",
+    "s5": "A",
+    "s6": "T",
+    "s7": "C",
+    "s11": "H",
+    "s4": "T",
+    "s0": "HE",
+    "s9": "WA",
+    "s10": "V",
+    "s8": "E",
+    "s2": "Q",
+    "s3": "R"
+  },
+  "solutions": [
+    {
+      "word": "CATCH",
+      "path": [
+        "s1",
+        "s5",
+        "s6",
+        "s7",
+        "s11"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s4",
+        "s0"
+      ]
+    },
+    {
+      "word": "WAVE",
+      "path": [
+        "s9",
+        "s10",
+        "s8"
+      ]
+    }
+  ]
+}

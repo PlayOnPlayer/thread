@@ -1,60 +1,62 @@
 {
   "id": "day-08",
-  "title": "LOST IN THE FOG",
+  "title": "STAY KIND TO ALL",
   "layoutId": "layout-08",
-  "phrase": "LOST IN THE FOG",
+  "phrase": "STAY KIND TO ALL",
   "words": [
-    "LOST",
-    "IN",
-    "THE",
-    "FOG"
+    "STAY",
+    "KIND",
+    "TO",
+    "ALL"
   ],
   "letters": {
-    "s5": "L",
-    "s8": "O",
-    "s13": "S",
-    "s12": "T",
-    "s1": "I",
-    "s3": "N",
-    "s11": "T",
-    "s10": "H",
-    "s7": "E",
-    "s6": "F",
-    "s0": "OG",
-    "s2": "Q",
-    "s4": "R",
-    "s9": "S"
+    "s8": "S",
+    "s9": "T",
+    "s3": "A",
+    "s4": "Y",
+    "s1": "K",
+    "s2": "I",
+    "s7": "N",
+    "s11": "D",
+    "s5": "T",
+    "s6": "O",
+    "s12": "A",
+    "s13": "L",
+    "s10": "L",
+    "s0": "QU"
   },
   "solutions": [
     {
-      "word": "LOST",
+      "word": "STAY",
       "path": [
-        "s5",
         "s8",
-        "s13",
-        "s12"
+        "s9",
+        "s3",
+        "s4"
       ]
     },
     {
-      "word": "IN",
+      "word": "KIND",
       "path": [
         "s1",
-        "s3"
+        "s2",
+        "s7",
+        "s11"
       ]
     },
     {
-      "word": "THE",
+      "word": "TO",
       "path": [
-        "s11",
-        "s10",
-        "s7"
+        "s5",
+        "s6"
       ]
     },
     {
-      "word": "FOG",
+      "word": "ALL",
       "path": [
-        "s6",
-        "s0"
+        "s12",
+        "s13",
+        "s10"
       ]
     }
   ]

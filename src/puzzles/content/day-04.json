@@ -1,60 +1,61 @@
 {
   "id": "day-04",
-  "title": "LIVE FOR THE DAY",
+  "title": "NEVER GIVE UP HOPE",
   "layoutId": "layout-04",
-  "phrase": "LIVE FOR THE DAY",
+  "phrase": "NEVER GIVE UP HOPE",
   "words": [
-    "LIVE",
-    "FOR",
-    "THE",
-    "DAY"
+    "NEVER",
+    "GIVE",
+    "UP",
+    "HOPE"
   ],
   "letters": {
-    "s6": "L",
-    "s3": "I",
-    "s2": "V",
-    "s1": "E",
-    "s9": "F",
-    "s11": "O",
-    "s12": "R",
-    "s8": "TH",
-    "s5": "E",
-    "s4": "D",
-    "s7": "A",
-    "s10": "Y",
-    "s0": "QU"
+    "s7": "N",
+    "s3": "E",
+    "s4": "V",
+    "s2": "E",
+    "s1": "R",
+    "s10": "G",
+    "s9": "I",
+    "s11": "V",
+    "s12": "E",
+    "s0": "UP",
+    "s6": "H",
+    "s8": "OP",
+    "s5": "E"
   },
   "solutions": [
     {
-      "word": "LIVE",
+      "word": "NEVER",
       "path": [
-        "s6",
+        "s7",
         "s3",
+        "s4",
         "s2",
         "s1"
       ]
     },
     {
-      "word": "FOR",
+      "word": "GIVE",
       "path": [
+        "s10",
         "s9",
         "s11",
         "s12"
       ]
     },
     {
-      "word": "THE",
+      "word": "UP",
       "path": [
-        "s8",
-        "s5"
+        "s0"
       ]
     },
     {
-      "word": "DAY",
+      "word": "HOPE",
       "path": [
-        "s4",
-        "s7",
-        "s10"
+        "s6",
+        "s8",
+        "s5"
       ]
     }
   ]

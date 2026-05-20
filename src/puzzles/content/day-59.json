@@ -1,0 +1,53 @@
+{
+  "id": "day-59",
+  "title": "LIVE IN COLOR",
+  "layoutId": "layout-59",
+  "phrase": "LIVE IN COLOR",
+  "words": [
+    "LIVE",
+    "IN",
+    "COLOR"
+  ],
+  "letters": {
+    "s9": "L",
+    "s5": "I",
+    "s8": "V",
+    "s10": "E",
+    "s4": "I",
+    "s3": "N",
+    "s7": "C",
+    "s6": "OL",
+    "s12": "O",
+    "s11": "R",
+    "s0": "CH",
+    "s1": "Q",
+    "s2": "R"
+  },
+  "solutions": [
+    {
+      "word": "LIVE",
+      "path": [
+        "s9",
+        "s5",
+        "s8",
+        "s10"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s4",
+        "s3"
+      ]
+    },
+    {
+      "word": "COLOR",
+      "path": [
+        "s7",
+        "s6",
+        "s12",
+        "s11"
+      ]
+    }
+  ]
+}

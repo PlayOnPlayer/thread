@@ -13,7 +13,7 @@ function layoutShapeSignature(puzzle: (typeof puzzles)[number]): string {
 }
 
 describe('puzzle catalog', () => {
-  it('has 25 puzzles on unique 5x5 layouts and unique phrases', () => {
+  it('has 75 puzzles on unique 5x5 layouts and unique phrases', () => {
     const layoutIds = new Set<string>();
     const layoutShapes = new Set<string>();
     const phrases = new Set<string>();
@@ -30,10 +30,10 @@ describe('puzzle catalog', () => {
         expect(word.length).toBeLessThanOrEqual(5);
       }
     }
-    expect(puzzles.length).toBe(25);
-    expect(layoutIds.size).toBe(25);
-    expect(layoutShapes.size).toBe(25);
-    expect(phrases.size).toBe(25);
+    expect(puzzles.length).toBe(75);
+    expect(layoutIds.size).toBe(75);
+    expect(layoutShapes.size).toBe(75);
+    expect(phrases.size).toBe(75);
   });
 });
 
@@ -138,6 +138,53 @@ describe('guess feedback', () => {
     expect(result.phraseFeedback).toBe('solved');
     expect(result.revealedWordIndex).toBe(0);
     expect(result.isWin).toBe(true);
+  });
+
+  it('marks possibly-correct tiles green on failed guesses', () => {
+    const reorderPuzzle: PuzzleDef = {
+      id: 'reorder-test',
+      layoutId: 'reorder-layout-test',
+      gridCols: 5,
+      gridRows: 5,
+      phrase: 'AB',
+      words: ['AB'],
+      tiles: [
+        { id: 'tile-a', letters: 'A', col: 0, row: 0, colSpan: 1, rowSpan: 1 },
+        { id: 'tile-b', letters: 'B', col: 1, row: 0, colSpan: 1, rowSpan: 1 },
+      ],
+      solutions: [{ word: 'AB', path: ['tile-a', 'tile-b'] }],
+    };
+
+    const state = createInitialState(reorderPuzzle);
+    const wrongOrder = [reorderPuzzle.tiles[1]!, reorderPuzzle.tiles[0]!];
+    const result = scoreGuess(state, wrongOrder);
+
+    expect(result.revealedWordIndex).toBeNull();
+    expect(result.tileFeedback).toEqual(['ghost', 'ghost']);
+  });
+
+  it('marks every tile perfect when a word is revealed', () => {
+    const puzzle = puzzles.find((p) => p.id === 'day-01')!;
+    const state = createInitialState(puzzle);
+    const timePath = puzzle.solutions[0]!.path.map(
+      (id) => puzzle.tiles.find((t) => t.id === id)!,
+    );
+    const result = scoreGuess(state, timePath);
+
+    expect(result.revealedWordIndex).toBe(0);
+    expect(result.tileFeedback.every((fb) => fb === 'perfect')).toBe(true);
+  });
+
+  it('ghosts in-solution tiles on partial wrong guesses', () => {
+    const puzzle = puzzles.find((p) => p.id === 'day-01')!;
+    const state = createInitialState(puzzle);
+    const timePath = puzzle.solutions[0]!.path;
+    const first = puzzle.tiles.find((t) => t.id === timePath[0])!;
+    const third = puzzle.tiles.find((t) => t.id === timePath[2])!;
+    const result = scoreGuess(state, [third, first]);
+
+    expect(result.revealedWordIndex).toBeNull();
+    expect(result.tileFeedback).toEqual(['ghost', 'ghost']);
   });
 });
 

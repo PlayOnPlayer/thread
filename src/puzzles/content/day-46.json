@@ -1,0 +1,61 @@
+{
+  "id": "day-46",
+  "title": "FIND YOUR OWN WAY",
+  "layoutId": "layout-46",
+  "phrase": "FIND YOUR OWN WAY",
+  "words": [
+    "FIND",
+    "YOUR",
+    "OWN",
+    "WAY"
+  ],
+  "letters": {
+    "s7": "F",
+    "s10": "I",
+    "s5": "N",
+    "s8": "D",
+    "s3": "YO",
+    "s1": "U",
+    "s2": "R",
+    "s9": "O",
+    "s12": "W",
+    "s11": "N",
+    "s4": "W",
+    "s0": "AY",
+    "s6": "S"
+  },
+  "solutions": [
+    {
+      "word": "FIND",
+      "path": [
+        "s7",
+        "s10",
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s3",
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "OWN",
+      "path": [
+        "s9",
+        "s12",
+        "s11"
+      ]
+    },
+    {
+      "word": "WAY",
+      "path": [
+        "s4",
+        "s0"
+      ]
+    }
+  ]
+}

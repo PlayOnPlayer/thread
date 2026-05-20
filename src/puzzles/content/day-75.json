@@ -1,0 +1,50 @@
+{
+  "id": "day-75",
+  "title": "HOLD ON TIGHT",
+  "layoutId": "layout-75",
+  "phrase": "HOLD ON TIGHT",
+  "words": [
+    "HOLD",
+    "ON",
+    "TIGHT"
+  ],
+  "letters": {
+    "s1": "H",
+    "s4": "O",
+    "s7": "L",
+    "s10": "D",
+    "s3": "O",
+    "s9": "N",
+    "s8": "TI",
+    "s5": "G",
+    "s2": "HT",
+    "s0": "CH",
+    "s6": "Q"
+  },
+  "solutions": [
+    {
+      "word": "HOLD",
+      "path": [
+        "s1",
+        "s4",
+        "s7",
+        "s10"
+      ]
+    },
+    {
+      "word": "ON",
+      "path": [
+        "s3",
+        "s9"
+      ]
+    },
+    {
+      "word": "TIGHT",
+      "path": [
+        "s8",
+        "s5",
+        "s2"
+      ]
+    }
+  ]
+}

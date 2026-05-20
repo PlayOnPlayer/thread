@@ -1,0 +1,51 @@
+{
+  "id": "day-62",
+  "title": "MOVE WITH GRACE",
+  "layoutId": "layout-62",
+  "phrase": "MOVE WITH GRACE",
+  "words": [
+    "MOVE",
+    "WITH",
+    "GRACE"
+  ],
+  "letters": {
+    "s4": "M",
+    "s8": "O",
+    "s10": "V",
+    "s5": "E",
+    "s3": "W",
+    "s6": "IT",
+    "s7": "H",
+    "s2": "GR",
+    "s1": "A",
+    "s0": "CE",
+    "s9": "R"
+  },
+  "solutions": [
+    {
+      "word": "MOVE",
+      "path": [
+        "s4",
+        "s8",
+        "s10",
+        "s5"
+      ]
+    },
+    {
+      "word": "WITH",
+      "path": [
+        "s3",
+        "s6",
+        "s7"
+      ]
+    },
+    {
+      "word": "GRACE",
+      "path": [
+        "s2",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

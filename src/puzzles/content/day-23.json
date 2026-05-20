@@ -1,49 +1,51 @@
 {
   "id": "day-23",
-  "title": "DAY BY DAY",
+  "title": "TEST THE WATER",
   "layoutId": "layout-23",
-  "phrase": "DAY BY DAY",
+  "phrase": "TEST THE WATER",
   "words": [
-    "DAY",
-    "BY",
-    "DAY"
+    "TEST",
+    "THE",
+    "WATER"
   ],
   "letters": {
-    "s3": "D",
-    "s6": "A",
-    "s8": "Y",
-    "s2": "B",
-    "s1": "Y",
-    "s11": "D",
-    "s10": "A",
-    "s9": "Y",
-    "s0": "TR",
-    "s4": "SK",
-    "s5": "N",
-    "s7": "CH"
+    "s6": "T",
+    "s4": "ES",
+    "s2": "T",
+    "s10": "T",
+    "s9": "H",
+    "s11": "E",
+    "s5": "W",
+    "s0": "AT",
+    "s3": "E",
+    "s1": "R",
+    "s7": "SH",
+    "s8": "R"
   },
   "solutions": [
     {
-      "word": "DAY",
+      "word": "TEST",
       "path": [
-        "s3",
         "s6",
-        "s8"
+        "s4",
+        "s2"
       ]
     },
     {
-      "word": "BY",
+      "word": "THE",
       "path": [
-        "s2",
-        "s1"
-      ]
-    },
-    {
-      "word": "DAY",
-      "path": [
-        "s11",
         "s10",
-        "s9"
+        "s9",
+        "s11"
+      ]
+    },
+    {
+      "word": "WATER",
+      "path": [
+        "s5",
+        "s0",
+        "s3",
+        "s1"
       ]
     }
   ]

@@ -1,60 +1,60 @@
 {
   "id": "day-12",
-  "title": "ONE STEP AT TIME",
+  "title": "KEEP YOUR EYES UP",
   "layoutId": "layout-12",
-  "phrase": "ONE STEP AT TIME",
+  "phrase": "KEEP YOUR EYES UP",
   "words": [
-    "ONE",
-    "STEP",
-    "AT",
-    "TIME"
+    "KEEP",
+    "YOUR",
+    "EYES",
+    "UP"
   ],
   "letters": {
-    "s4": "O",
-    "s3": "N",
-    "s6": "E",
-    "s8": "S",
-    "s5": "T",
-    "s9": "E",
-    "s11": "P",
-    "s1": "A",
-    "s2": "T",
-    "s10": "TI",
-    "s7": "M",
+    "s1": "K",
+    "s4": "E",
+    "s7": "E",
+    "s6": "P",
+    "s5": "Y",
+    "s8": "O",
+    "s11": "U",
+    "s9": "R",
     "s12": "E",
-    "s0": "QU"
+    "s10": "YE",
+    "s3": "S",
+    "s0": "UP",
+    "s2": "S"
   },
   "solutions": [
     {
-      "word": "ONE",
+      "word": "KEEP",
       "path": [
+        "s1",
         "s4",
-        "s3",
+        "s7",
         "s6"
       ]
     },
     {
-      "word": "STEP",
+      "word": "YOUR",
       "path": [
-        "s8",
         "s5",
-        "s9",
-        "s11"
+        "s8",
+        "s11",
+        "s9"
       ]
     },
     {
-      "word": "AT",
+      "word": "EYES",
       "path": [
-        "s1",
-        "s2"
-      ]
-    },
-    {
-      "word": "TIME",
-      "path": [
+        "s12",
         "s10",
-        "s7",
-        "s12"
+        "s3"
+      ]
+    },
+    {
+      "word": "UP",
+      "path": [
+        "s0"
       ]
     }
   ]

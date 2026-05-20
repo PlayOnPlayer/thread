@@ -1,0 +1,53 @@
+{
+  "id": "day-61",
+  "title": "LOVE THIS LIFE",
+  "layoutId": "layout-61",
+  "phrase": "LOVE THIS LIFE",
+  "words": [
+    "LOVE",
+    "THIS",
+    "LIFE"
+  ],
+  "letters": {
+    "s6": "L",
+    "s3": "O",
+    "s4": "V",
+    "s7": "E",
+    "s1": "T",
+    "s0": "HI",
+    "s5": "S",
+    "s11": "L",
+    "s10": "IF",
+    "s9": "E",
+    "s2": "Q",
+    "s8": "R",
+    "s12": "S"
+  },
+  "solutions": [
+    {
+      "word": "LOVE",
+      "path": [
+        "s6",
+        "s3",
+        "s4",
+        "s7"
+      ]
+    },
+    {
+      "word": "THIS",
+      "path": [
+        "s1",
+        "s0",
+        "s5"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s11",
+        "s10",
+        "s9"
+      ]
+    }
+  ]
+}

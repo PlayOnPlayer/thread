@@ -1,0 +1,54 @@
+{
+  "id": "day-43",
+  "title": "MAKE IT COUNT",
+  "layoutId": "layout-43",
+  "phrase": "MAKE IT COUNT",
+  "words": [
+    "MAKE",
+    "IT",
+    "COUNT"
+  ],
+  "letters": {
+    "s1": "M",
+    "s4": "A",
+    "s7": "K",
+    "s3": "E",
+    "s10": "I",
+    "s11": "T",
+    "s0": "CO",
+    "s6": "U",
+    "s8": "N",
+    "s9": "T",
+    "s2": "P",
+    "s5": "Q",
+    "s12": "R",
+    "s13": "S"
+  },
+  "solutions": [
+    {
+      "word": "MAKE",
+      "path": [
+        "s1",
+        "s4",
+        "s7",
+        "s3"
+      ]
+    },
+    {
+      "word": "IT",
+      "path": [
+        "s10",
+        "s11"
+      ]
+    },
+    {
+      "word": "COUNT",
+      "path": [
+        "s0",
+        "s6",
+        "s8",
+        "s9"
+      ]
+    }
+  ]
+}

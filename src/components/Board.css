@@ -92,6 +92,22 @@
   opacity: 0.4;
 }
 
+.board-tile--wrong-flash {
+  animation: wrong-flash 3s ease forwards;
+}
+
+@keyframes wrong-flash {
+  0%,
+  100% {
+    opacity: 1;
+    filter: brightness(1);
+  }
+  50% {
+    opacity: 0.35;
+    filter: brightness(1.15);
+  }
+}
+
 .board-tile__letters {
   letter-spacing: 0.02em;
   user-select: none;

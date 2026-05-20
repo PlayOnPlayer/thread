@@ -43,20 +43,6 @@
   letter-spacing: 0.08em;
 }
 
-.game__tries {
-  margin: 0 0 12px;
-  min-height: 1.12rem;
-  color: var(--color-muted);
-  font-size: 1.12rem;
-  font-weight: 500;
-}
-
-.game__tries-count {
-  color: var(--color-text);
-  font-size: 1.12rem;
-  font-weight: 700;
-}
-
 .game__path-label {
   font-weight: 400;
   color: var(--color-muted);
@@ -67,21 +53,6 @@
   color: var(--color-muted);
   font-weight: 400;
   font-size: 0.95rem;
-}
-
-.game__buttons-wrap {
-  position: relative;
-}
-
-.game__solved {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 100%;
-  margin: 0 0 10px;
-  font-weight: 700;
-  font-size: 1rem;
-  text-align: center;
 }
 
 .game__buttons {
@@ -129,8 +100,43 @@
 .game__pagination {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 6px;
+}
+
+.game__page-arrow {
+  min-width: 28px;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-muted);
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.game__page-arrow:hover {
+  color: var(--color-text);
+}
+
+.game__page-arrow--disabled {
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+.game__page-ellipsis {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  padding: 0;
+  margin: 0 -6px;
+  color: var(--color-muted);
+  user-select: none;
+  line-height: 1;
 }
 
 .game__page-link {

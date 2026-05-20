@@ -1,0 +1,85 @@
+{
+  "id": "layout-30",
+  "name": "Seam grid 30",
+  "gridCols": 5,
+  "gridRows": 5,
+  "slots": [
+    {
+      "id": "s0",
+      "col": 0,
+      "row": 0,
+      "colSpan": 2,
+      "rowSpan": 2
+    },
+    {
+      "id": "s1",
+      "col": 2,
+      "row": 0,
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "s2",
+      "col": 3,
+      "row": 0,
+      "colSpan": 2,
+      "rowSpan": 1
+    },
+    {
+      "id": "s3",
+      "col": 3,
+      "row": 1,
+      "colSpan": 2,
+      "rowSpan": 1
+    },
+    {
+      "id": "s4",
+      "col": 0,
+      "row": 2,
+      "colSpan": 2,
+      "rowSpan": 1
+    },
+    {
+      "id": "s5",
+      "col": 2,
+      "row": 2,
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "s6",
+      "col": 3,
+      "row": 2,
+      "colSpan": 2,
+      "rowSpan": 2
+    },
+    {
+      "id": "s7",
+      "col": 0,
+      "row": 3,
+      "colSpan": 2,
+      "rowSpan": 2
+    },
+    {
+      "id": "s8",
+      "col": 2,
+      "row": 3,
+      "colSpan": 1,
+      "rowSpan": 2
+    },
+    {
+      "id": "s9",
+      "col": 3,
+      "row": 4,
+      "colSpan": 1,
+      "rowSpan": 1
+    },
+    {
+      "id": "s10",
+      "col": 4,
+      "row": 4,
+      "colSpan": 1,
+      "rowSpan": 1
+    }
+  ]
+}

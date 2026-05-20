@@ -1,0 +1,53 @@
+{
+  "id": "day-35",
+  "title": "SAFE AND SOUND",
+  "layoutId": "layout-35",
+  "phrase": "SAFE AND SOUND",
+  "words": [
+    "SAFE",
+    "AND",
+    "SOUND"
+  ],
+  "letters": {
+    "s6": "S",
+    "s8": "A",
+    "s7": "F",
+    "s10": "E",
+    "s3": "A",
+    "s0": "ND",
+    "s9": "S",
+    "s4": "OU",
+    "s2": "N",
+    "s1": "D",
+    "s5": "Q",
+    "s11": "R",
+    "s12": "S"
+  },
+  "solutions": [
+    {
+      "word": "SAFE",
+      "path": [
+        "s6",
+        "s8",
+        "s7",
+        "s10"
+      ]
+    },
+    {
+      "word": "AND",
+      "path": [
+        "s3",
+        "s0"
+      ]
+    },
+    {
+      "word": "SOUND",
+      "path": [
+        "s9",
+        "s4",
+        "s2",
+        "s1"
+      ]
+    }
+  ]
+}

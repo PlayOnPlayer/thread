@@ -1,0 +1,60 @@
+{
+  "id": "day-60",
+  "title": "TAKE THE LEAP NOW",
+  "layoutId": "layout-60",
+  "phrase": "TAKE THE LEAP NOW",
+  "words": [
+    "TAKE",
+    "THE",
+    "LEAP",
+    "NOW"
+  ],
+  "letters": {
+    "s7": "T",
+    "s4": "A",
+    "s2": "K",
+    "s1": "E",
+    "s8": "T",
+    "s5": "H",
+    "s9": "E",
+    "s11": "L",
+    "s10": "E",
+    "s6": "AP",
+    "s0": "NO",
+    "s3": "W"
+  },
+  "solutions": [
+    {
+      "word": "TAKE",
+      "path": [
+        "s7",
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s8",
+        "s5",
+        "s9"
+      ]
+    },
+    {
+      "word": "LEAP",
+      "path": [
+        "s11",
+        "s10",
+        "s6"
+      ]
+    },
+    {
+      "word": "NOW",
+      "path": [
+        "s0",
+        "s3"
+      ]
+    }
+  ]
+}

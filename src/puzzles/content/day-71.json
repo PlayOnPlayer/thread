@@ -1,0 +1,51 @@
+{
+  "id": "day-71",
+  "title": "SET THE TONE",
+  "layoutId": "layout-71",
+  "phrase": "SET THE TONE",
+  "words": [
+    "SET",
+    "THE",
+    "TONE"
+  ],
+  "letters": {
+    "s9": "S",
+    "s8": "E",
+    "s11": "T",
+    "s7": "T",
+    "s5": "H",
+    "s6": "E",
+    "s2": "T",
+    "s1": "O",
+    "s4": "NE",
+    "s0": "SP",
+    "s3": "P",
+    "s10": "Q"
+  },
+  "solutions": [
+    {
+      "word": "SET",
+      "path": [
+        "s9",
+        "s8",
+        "s11"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s7",
+        "s5",
+        "s6"
+      ]
+    },
+    {
+      "word": "TONE",
+      "path": [
+        "s2",
+        "s1",
+        "s4"
+      ]
+    }
+  ]
+}

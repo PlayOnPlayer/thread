@@ -9,6 +9,7 @@ interface BoardProps {
   onTileClick: (tile: TileDef) => void;
   lastResult: GuessResult | null;
   disabled?: boolean;
+  wrongFeedbackActive?: boolean;
   lost?: boolean;
   won?: boolean;
 }
@@ -32,15 +33,17 @@ export function Board({
   onTileClick,
   lastResult,
   disabled = false,
+  wrongFeedbackActive = false,
   lost = false,
   won = false,
 }: BoardProps) {
+  const boardLocked = disabled || wrongFeedbackActive;
   const visited = new Set(path.map((t) => t.id));
   const lastTile = path[path.length - 1];
   const legalNext = lastTile
     ? getLegalNextTiles(lastTile, puzzle.tiles, visited)
     : puzzle.tiles;
-  const legalIds = disabled
+  const legalIds = boardLocked
     ? new Set<string>()
     : new Set(
         path.length === 0 ? puzzle.tiles.map((t) => t.id) : legalNext.map((t) => t.id),
@@ -50,7 +53,7 @@ export function Board({
     <div
       className={[
         'board-frame',
-        disabled ? 'board-frame--locked' : '',
+        boardLocked ? 'board-frame--locked' : '',
         lost ? 'board-frame--game-over' : '',
         won ? 'board-frame--won' : '',
       ]
@@ -67,9 +70,9 @@ export function Board({
       {puzzle.tiles.map((tile) => {
         const inPath = visited.has(tile.id);
         const pathIndex = path.findIndex((t) => t.id === tile.id);
-        const canSelect = !disabled && !inPath && legalIds.has(tile.id);
+        const canSelect = !boardLocked && !inPath && legalIds.has(tile.id);
         const isLast = path.length > 0 && path[path.length - 1]?.id === tile.id;
-        const tileDisabled = disabled || (path.length > 0 && !inPath && !canSelect);
+        const tileDisabled = boardLocked || (path.length > 0 && !inPath && !canSelect);
 
         const isDouble = tile.colSpan === 2 && tile.rowSpan === 2;
 
@@ -81,8 +84,9 @@ export function Board({
               'board-tile',
               isDouble ? 'board-tile--double' : '',
               inPath ? 'board-tile--in-path' : '',
-              !disabled && (canSelect || path.length === 0) ? 'board-tile--selectable' : '',
+              !boardLocked && (canSelect || path.length === 0) ? 'board-tile--selectable' : '',
               isLast ? 'board-tile--last' : '',
+              wrongFeedbackActive && inPath ? 'board-tile--wrong-flash' : '',
               tileFeedbackClass(tile.id, path, lastResult),
             ]
               .filter(Boolean)

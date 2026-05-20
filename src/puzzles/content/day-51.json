@@ -1,0 +1,52 @@
+{
+  "id": "day-51",
+  "title": "FREE AND CLEAR",
+  "layoutId": "layout-51",
+  "phrase": "FREE AND CLEAR",
+  "words": [
+    "FREE",
+    "AND",
+    "CLEAR"
+  ],
+  "letters": {
+    "s11": "F",
+    "s7": "R",
+    "s8": "E",
+    "s9": "E",
+    "s5": "A",
+    "s6": "N",
+    "s3": "D",
+    "s4": "CL",
+    "s1": "E",
+    "s0": "AR",
+    "s2": "Q",
+    "s10": "R"
+  },
+  "solutions": [
+    {
+      "word": "FREE",
+      "path": [
+        "s11",
+        "s7",
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "word": "AND",
+      "path": [
+        "s5",
+        "s6",
+        "s3"
+      ]
+    },
+    {
+      "word": "CLEAR",
+      "path": [
+        "s4",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

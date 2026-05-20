@@ -1,0 +1,60 @@
+{
+  "id": "day-34",
+  "title": "STAY BOLD IN LIFE",
+  "layoutId": "layout-34",
+  "phrase": "STAY BOLD IN LIFE",
+  "words": [
+    "STAY",
+    "BOLD",
+    "IN",
+    "LIFE"
+  ],
+  "letters": {
+    "s5": "S",
+    "s7": "T",
+    "s8": "A",
+    "s9": "Y",
+    "s3": "B",
+    "s4": "O",
+    "s2": "L",
+    "s1": "D",
+    "s0": "IN",
+    "s11": "L",
+    "s10": "IF",
+    "s6": "E"
+  },
+  "solutions": [
+    {
+      "word": "STAY",
+      "path": [
+        "s5",
+        "s7",
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "word": "BOLD",
+      "path": [
+        "s3",
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s0"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s11",
+        "s10",
+        "s6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.game__tries-dots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 0 12px;
+  min-height: 28px;
+}
+
+.game__try-dot {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid var(--color-phrase-empty-border);
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.game__try-dot--spent {
+  border-color: #d32f2f;
+  background: transparent;
+}
+
+.game__try-x {
+  width: 13px;
+  height: 13px;
+  color: #d32f2f;
+}

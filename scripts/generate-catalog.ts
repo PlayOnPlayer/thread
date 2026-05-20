@@ -19,7 +19,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const LAYOUTS_DIR = join(ROOT, 'src/layouts/generated');
 const CONTENT_DIR = join(ROOT, 'src/puzzles/content');
-const CATALOG_SIZE = 25;
+const CATALOG_SIZE = 75;
 const LAYOUT_CANDIDATE_POOL_SIZE = 1200;
 
 const PIECES = [
@@ -61,6 +61,55 @@ const PHRASES_3: string[][] = [
   ['PASS', 'THE', 'TEST'],
   ['FACE', 'THE', 'MUSIC'],
   ['BREAK', 'THE', 'ICE'],
+  ['PUSH', 'THE', 'LIMIT'],
+  ['TEST', 'THE', 'WATER'],
+  ['CATCH', 'THE', 'WAVE'],
+  ['FEEL', 'THE', 'BEAT'],
+  ['SET', 'THE', 'TONE'],
+  ['OWN', 'THE', 'NIGHT'],
+  ['WIN', 'THE', 'DAY'],
+  ['HOLD', 'THE', 'LINE'],
+  ['DROP', 'THE', 'MIC'],
+  ['PICK', 'UP', 'PACE'],
+  ['MOVE', 'THE', 'NEEDLE'],
+  ['OPEN', 'NEW', 'DOORS'],
+  ['TRUST', 'THE', 'PROCESS'],
+  ['CHASE', 'THE', 'SUN'],
+  ['BUILD', 'IT', 'UP'],
+  ['START', 'FROM', 'SCRATCH'],
+  ['KEEP', 'MOVING', 'ON'],
+  ['FIND', 'NEW', 'PATHS'],
+  ['TURN', 'THE', 'PAGE'],
+  ['SEEK', 'THE', 'TRUTH'],
+  ['FOLLOW', 'YOUR', 'BLISS'],
+  ['STAY', 'THE', 'COURSE'],
+  ['AIM', 'FOR', 'MORE'],
+  ['GROW', 'EVERY', 'DAY'],
+  ['LEAD', 'BY', 'EXAMPLE'],
+  ['MAKE', 'IT', 'COUNT'],
+  ['LIVE', 'IN', 'COLOR'],
+  ['SING', 'YOUR', 'SONG'],
+  ['DREAM', 'IN', 'HD'],
+  ['WORK', 'IN', 'PROGRESS'],
+  ['PLAY', 'TO', 'WIN'],
+  ['RIDE', 'THE', 'STORM'],
+  ['FIND', 'YOUR', 'VOICE'],
+  ['KEEP', 'THE', 'FAITH'],
+  ['LOVE', 'THIS', 'LIFE'],
+  ['HOLD', 'ON', 'TIGHT'],
+  ['JUMP', 'RIGHT', 'IN'],
+  ['STAY', 'TRUE', 'BLUE'],
+  ['MOVE', 'WITH', 'GRACE'],
+  ['SHARE', 'THE', 'JOY'],
+  ['BRING', 'THE', 'HEAT'],
+  ['KEEP', 'CALM', 'ON'],
+  ['FIND', 'THE', 'KEY'],
+  ['OPEN', 'THE', 'DOOR'],
+  ['SEIZE', 'EVERY', 'CHANCE'],
+  ['WRITE', 'YOUR', 'STORY'],
+  ['MAKE', 'WAVES', 'TODAY'],
+  ['STAY', 'ONE', 'AHEAD'],
+  ['LIVE', 'WITHOUT', 'FEAR'],
 ];
 
 const PHRASES_4: string[][] = [
@@ -84,6 +133,55 @@ const PHRASES_4: string[][] = [
   ['WORK', 'WITH', 'YOUR', 'TEAM'],
   ['GIVE', 'IT', 'YOUR', 'ALL'],
   ['STAY', 'IN', 'THE', 'GAME'],
+  ['NEVER', 'GIVE', 'UP', 'HOPE'],
+  ['KEEP', 'AN', 'OPEN', 'MIND'],
+  ['TAKE', 'IT', 'ONE', 'DAY'],
+  ['FIND', 'YOUR', 'OWN', 'WAY'],
+  ['MAKE', 'EACH', 'DAY', 'COUNT'],
+  ['LIVE', 'LIFE', 'OUT', 'LOUD'],
+  ['TURN', 'IDEAS', 'INTO', 'ACTION'],
+  ['BUILD', 'A', 'BETTER', 'FUTURE'],
+  ['STAY', 'FOCUSED', 'ON', 'GOALS'],
+  ['CHASE', 'WHAT', 'SETS', 'SOUL'],
+  ['KEEP', 'REACHING', 'FOR', 'STARS'],
+  ['OPEN', 'HEARTS', 'AND', 'MINDS'],
+  ['TRUST', 'WHAT', 'YOU', 'KNOW'],
+  ['SHARE', 'LIGHT', 'WITH', 'ALL'],
+  ['WRITE', 'A', 'NEW', 'CHAPTER'],
+  ['PLAY', 'THE', 'LONG', 'GAME'],
+  ['FIND', 'PEACE', 'IN', 'CHAOS'],
+  ['MAKE', 'ROOM', 'FOR', 'JOY'],
+  ['STAY', 'KIND', 'TO', 'ALL'],
+  ['LIVE', 'WITH', 'NO', 'REGRETS'],
+  ['KEEP', 'BUILDING', 'YOUR', 'DREAM'],
+  ['TAKE', 'THE', 'LEAP', 'NOW'],
+  ['SEEK', 'BALANCE', 'IN', 'LIFE'],
+  ['HOLD', 'SPACE', 'FOR', 'GROWTH'],
+  ['MOVE', 'PAST', 'OLD', 'FEARS'],
+  ['FIND', 'STRENGTH', 'IN', 'TEAM'],
+  ['MAKE', 'ART', 'EVERY', 'DAY'],
+  ['STAY', 'CURIOUS', 'ABOUT', 'ALL'],
+  ['WORK', 'HARD', 'DREAM', 'BIG'],
+  ['KEEP', 'SHOWING', 'UP', 'DAILY'],
+  ['LIVE', 'FULLY', 'RIGHT', 'NOW'],
+  ['TURN', 'PAIN', 'INTO', 'POWER'],
+  ['FIND', 'CALM', 'IN', 'STORM'],
+  ['MAKE', 'LOVE', 'YOUR', 'GUIDE'],
+  ['STAY', 'BOLD', 'IN', 'LIFE'],
+  ['CHASE', 'SUNRISE', 'EVERY', 'DAY'],
+  ['KEEP', 'YOUR', 'EYES', 'UP'],
+  ['OPEN', 'DOORS', 'FOR', 'OTHERS'],
+  ['TRUST', 'SMALL', 'STEPS', 'MOST'],
+  ['SHARE', 'HOPE', 'WITH', 'WORLD'],
+  ['WRITE', 'RULES', 'YOUR', 'WAY'],
+  ['PLAY', 'FAIR', 'WIN', 'WELL'],
+  ['FIND', 'MAGIC', 'IN', 'NOW'],
+  ['MAKE', 'TIME', 'FOR', 'PLAY'],
+  ['STAY', 'ROOTED', 'GROW', 'TALL'],
+  ['LIVE', 'BRAVE', 'LOVE', 'DEEP'],
+  ['KEEP', 'GOING', 'NO', 'MATTER'],
+  ['TAKE', 'CARE', 'OF', 'YOU'],
+  ['SEEK', 'WONDER', 'EVERY', 'DAY'],
 ];
 
 /** Prefer 4 words on half the catalog; fall back to 3 if the layout cannot fit. */
@@ -92,13 +190,20 @@ function phrasesToTry(puzzleIndex: number): string[][] {
   const primary = preferFour ? PHRASES_4 : PHRASES_3;
   const secondary = preferFour ? PHRASES_3 : PHRASES_4;
   const ordered: string[][] = [];
-  const offset = puzzleIndex * 7;
-  for (let a = 0; a < primary.length; a++) {
-    ordered.push(primary[(offset + a) % primary.length]!);
-  }
-  for (let a = 0; a < secondary.length; a++) {
-    ordered.push(secondary[(offset + a) % secondary.length]!);
-  }
+  const seen = new Set<string>();
+  const addFrom = (list: string[][]) => {
+    for (let a = 0; a < list.length; a++) {
+      const phrase = list[(puzzleIndex * 5 + a) % list.length]!;
+      const key = phrase.join(' ');
+      if (seen.has(key)) continue;
+      seen.add(key);
+      ordered.push(phrase);
+    }
+  };
+  addFrom(primary);
+  addFrom(secondary);
+  addFrom(PHRASES_3);
+  addFrom(PHRASES_4);
   return ordered;
 }
 
@@ -572,6 +677,11 @@ export function getDailyPuzzle(date = new Date()): PuzzleDef {
     (date.getTime() - start.getTime()) / (24 * 60 * 60 * 1000),
   );
   const index = ((dayIndex % puzzles.length) + puzzles.length) % puzzles.length;
+  return puzzles[index]!;
+}
+
+export function getRandomPuzzle(): PuzzleDef {
+  const index = Math.floor(Math.random() * puzzles.length);
   return puzzles[index]!;
 }
 

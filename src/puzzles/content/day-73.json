@@ -1,0 +1,48 @@
+{
+  "id": "day-73",
+  "title": "DREAM IN HD",
+  "layoutId": "layout-73",
+  "phrase": "DREAM IN HD",
+  "words": [
+    "DREAM",
+    "IN",
+    "HD"
+  ],
+  "letters": {
+    "s9": "D",
+    "s6": "R",
+    "s3": "E",
+    "s4": "A",
+    "s1": "M",
+    "s2": "IN",
+    "s0": "HD",
+    "s5": "M",
+    "s7": "SP",
+    "s8": "P",
+    "s10": "Q"
+  },
+  "solutions": [
+    {
+      "word": "DREAM",
+      "path": [
+        "s9",
+        "s6",
+        "s3",
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s2"
+      ]
+    },
+    {
+      "word": "HD",
+      "path": [
+        "s0"
+      ]
+    }
+  ]
+}

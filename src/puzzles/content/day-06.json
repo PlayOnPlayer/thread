@@ -1,57 +1,59 @@
 {
   "id": "day-06",
-  "title": "DO WHAT YOU CAN",
+  "title": "FIND MAGIC IN NOW",
   "layoutId": "layout-06",
-  "phrase": "DO WHAT YOU CAN",
+  "phrase": "FIND MAGIC IN NOW",
   "words": [
-    "DO",
-    "WHAT",
-    "YOU",
-    "CAN"
+    "FIND",
+    "MAGIC",
+    "IN",
+    "NOW"
   ],
   "letters": {
-    "s1": "D",
-    "s5": "O",
-    "s7": "W",
-    "s8": "H",
-    "s11": "A",
-    "s10": "T",
-    "s3": "YO",
-    "s2": "U",
-    "s0": "CA",
-    "s4": "N",
-    "s6": "Q",
-    "s9": "R"
+    "s11": "F",
+    "s7": "I",
+    "s6": "N",
+    "s10": "D",
+    "s0": "MA",
+    "s1": "G",
+    "s5": "I",
+    "s4": "C",
+    "s9": "I",
+    "s8": "N",
+    "s2": "N",
+    "s3": "OW"
   },
   "solutions": [
     {
-      "word": "DO",
+      "word": "FIND",
       "path": [
-        "s1",
-        "s5"
-      ]
-    },
-    {
-      "word": "WHAT",
-      "path": [
-        "s7",
-        "s8",
         "s11",
+        "s7",
+        "s6",
         "s10"
       ]
     },
     {
-      "word": "YOU",
+      "word": "MAGIC",
       "path": [
-        "s3",
-        "s2"
+        "s0",
+        "s1",
+        "s5",
+        "s4"
       ]
     },
     {
-      "word": "CAN",
+      "word": "IN",
       "path": [
-        "s0",
-        "s4"
+        "s9",
+        "s8"
+      ]
+    },
+    {
+      "word": "NOW",
+      "path": [
+        "s2",
+        "s3"
       ]
     }
   ]
