@@ -1,0 +1,61 @@
+{
+  "id": "day-12",
+  "title": "ONE STEP AT TIME",
+  "layoutId": "layout-12",
+  "phrase": "ONE STEP AT TIME",
+  "words": [
+    "ONE",
+    "STEP",
+    "AT",
+    "TIME"
+  ],
+  "letters": {
+    "s4": "O",
+    "s3": "N",
+    "s6": "E",
+    "s8": "S",
+    "s5": "T",
+    "s9": "E",
+    "s11": "P",
+    "s1": "A",
+    "s2": "T",
+    "s10": "TI",
+    "s7": "M",
+    "s12": "E",
+    "s0": "QU"
+  },
+  "solutions": [
+    {
+      "word": "ONE",
+      "path": [
+        "s4",
+        "s3",
+        "s6"
+      ]
+    },
+    {
+      "word": "STEP",
+      "path": [
+        "s8",
+        "s5",
+        "s9",
+        "s11"
+      ]
+    },
+    {
+      "word": "AT",
+      "path": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "TIME",
+      "path": [
+        "s10",
+        "s7",
+        "s12"
+      ]
+    }
+  ]
+}

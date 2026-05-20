@@ -1,0 +1,22 @@
+{
+  "id": "classic",
+  "name": "Classic Seam (Figma)",
+  "gridCols": 5,
+  "gridRows": 5,
+  "slots": [
+    { "id": "s00", "col": 0, "row": 0, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s10", "col": 1, "row": 0, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s20", "col": 2, "row": 0, "colSpan": 2, "rowSpan": 2 },
+    { "id": "s40", "col": 4, "row": 0, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s01", "col": 0, "row": 1, "colSpan": 1, "rowSpan": 2 },
+    { "id": "s11", "col": 1, "row": 1, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s41", "col": 4, "row": 1, "colSpan": 1, "rowSpan": 2 },
+    { "id": "s12", "col": 1, "row": 2, "colSpan": 1, "rowSpan": 2 },
+    { "id": "s22", "col": 2, "row": 2, "colSpan": 2, "rowSpan": 1 },
+    { "id": "s30", "col": 0, "row": 3, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s32", "col": 2, "row": 3, "colSpan": 1, "rowSpan": 2 },
+    { "id": "s33", "col": 3, "row": 3, "colSpan": 2, "rowSpan": 2 },
+    { "id": "s04", "col": 0, "row": 4, "colSpan": 1, "rowSpan": 1 },
+    { "id": "s14", "col": 1, "row": 4, "colSpan": 1, "rowSpan": 1 }
+  ]
+}

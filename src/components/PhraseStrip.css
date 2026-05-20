@@ -1,0 +1,48 @@
+.phrase-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.phrase-word-group {
+  display: flex;
+  gap: 5px;
+}
+
+.phrase-tile {
+  width: var(--phrase-tile-size);
+  height: var(--phrase-tile-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-game);
+  font-weight: 700;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  text-transform: uppercase;
+  border: 2px solid var(--color-phrase-empty-border);
+  background: var(--color-phrase-empty-bg);
+  color: transparent;
+  border-radius: 4px;
+  transition: transform 0.4s ease, background 0.3s ease, color 0.2s ease;
+}
+
+.phrase-tile--revealed {
+  color: var(--color-text);
+  background: var(--color-phrase-revealed-bg);
+  border-color: var(--color-phrase-revealed-border);
+  animation: phrase-flip 0.5s ease;
+}
+
+@keyframes phrase-flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+  50% {
+    transform: rotateX(-90deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "day-07",
+  "title": "RISE AND SHINE",
+  "layoutId": "layout-07",
+  "phrase": "RISE AND SHINE",
+  "words": [
+    "RISE",
+    "AND",
+    "SHINE"
+  ],
+  "letters": {
+    "s9": "R",
+    "s4": "I",
+    "s5": "S",
+    "s10": "E",
+    "s7": "A",
+    "s3": "N",
+    "s2": "D",
+    "s1": "S",
+    "s6": "HI",
+    "s11": "N",
+    "s8": "E",
+    "s0": "SH"
+  },
+  "solutions": [
+    {
+      "word": "RISE",
+      "path": [
+        "s9",
+        "s4",
+        "s5",
+        "s10"
+      ]
+    },
+    {
+      "word": "AND",
+      "path": [
+        "s7",
+        "s3",
+        "s2"
+      ]
+    },
+    {
+      "word": "SHINE",
+      "path": [
+        "s1",
+        "s6",
+        "s11",
+        "s8"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "day-19",
+  "title": "DO YOUR BEST",
+  "layoutId": "layout-19",
+  "phrase": "DO YOUR BEST",
+  "words": [
+    "DO",
+    "YOUR",
+    "BEST"
+  ],
+  "letters": {
+    "s11": "D",
+    "s8": "O",
+    "s6": "Y",
+    "s3": "O",
+    "s4": "U",
+    "s1": "R",
+    "s9": "B",
+    "s5": "E",
+    "s2": "ST",
+    "s0": "SP",
+    "s7": "P",
+    "s10": "Q"
+  },
+  "solutions": [
+    {
+      "word": "DO",
+      "path": [
+        "s11",
+        "s8"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s6",
+        "s3",
+        "s4",
+        "s1"
+      ]
+    },
+    {
+      "word": "BEST",
+      "path": [
+        "s9",
+        "s5",
+        "s2"
+      ]
+    }
+  ]
+}

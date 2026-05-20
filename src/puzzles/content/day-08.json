@@ -1,0 +1,61 @@
+{
+  "id": "day-08",
+  "title": "LOST IN THE FOG",
+  "layoutId": "layout-08",
+  "phrase": "LOST IN THE FOG",
+  "words": [
+    "LOST",
+    "IN",
+    "THE",
+    "FOG"
+  ],
+  "letters": {
+    "s5": "L",
+    "s8": "O",
+    "s13": "S",
+    "s12": "T",
+    "s1": "I",
+    "s3": "N",
+    "s11": "T",
+    "s10": "H",
+    "s7": "E",
+    "s6": "F",
+    "s0": "OG",
+    "s2": "Q",
+    "s4": "R",
+    "s9": "S"
+  },
+  "solutions": [
+    {
+      "word": "LOST",
+      "path": [
+        "s5",
+        "s8",
+        "s13",
+        "s12"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s11",
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "word": "FOG",
+      "path": [
+        "s6",
+        "s0"
+      ]
+    }
+  ]
+}

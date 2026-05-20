@@ -1,0 +1,27 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-muted: #9aa0a6;
+  --color-tile-bg: #ededed;
+  --color-tile-border: #707070;
+  --color-phrase-empty-bg: #f4f4f4;
+  --color-phrase-empty-border: #d3d6da;
+  --color-phrase-revealed-bg: #ffffff;
+  --color-phrase-revealed-border: #878a8c;
+  --color-seam-perfect: #6aaa64;
+  --color-seam-fractured: #f0c674;
+  --color-tile-perfect: #6aaa64;
+  --color-tile-ghost: #6aaa64;
+  --color-tile-hover: #4a9eed;
+  --color-tile-dead: #3a3a3c;
+  --tile-radius: 10px;
+  --board-frame-padding: 6px;
+  /* Concentric with tile corners: outer radius = inner + inset */
+  --board-frame-radius: calc(var(--tile-radius) + var(--board-frame-padding));
+  --color-board-frame-bg: #fceee4;
+  --color-board-frame-bg-game-over: #ff5252;
+  --color-board-frame-bg-won: #62df72;
+  --phrase-tile-size: clamp(28px, 8vw, 48px);
+  --board-gap: 4px;
+  --font-game: 'Inter', system-ui, -apple-system, sans-serif;
+}

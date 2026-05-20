@@ -1,0 +1,51 @@
+{
+  "id": "day-25",
+  "title": "MAKE A PLAN",
+  "layoutId": "layout-25",
+  "phrase": "MAKE A PLAN",
+  "words": [
+    "MAKE",
+    "A",
+    "PLAN"
+  ],
+  "letters": {
+    "s2": "M",
+    "s4": "A",
+    "s3": "K",
+    "s1": "E",
+    "s9": "A",
+    "s5": "P",
+    "s8": "L",
+    "s10": "A",
+    "s11": "N",
+    "s0": "SK",
+    "s6": "SP",
+    "s7": "P"
+  },
+  "solutions": [
+    {
+      "word": "MAKE",
+      "path": [
+        "s2",
+        "s4",
+        "s3",
+        "s1"
+      ]
+    },
+    {
+      "word": "A",
+      "path": [
+        "s9"
+      ]
+    },
+    {
+      "word": "PLAN",
+      "path": [
+        "s5",
+        "s8",
+        "s10",
+        "s11"
+      ]
+    }
+  ]
+}

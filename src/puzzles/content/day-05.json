@@ -1,0 +1,50 @@
+{
+  "id": "day-05",
+  "title": "BREAK THE ICE",
+  "layoutId": "layout-05",
+  "phrase": "BREAK THE ICE",
+  "words": [
+    "BREAK",
+    "THE",
+    "ICE"
+  ],
+  "letters": {
+    "s3": "B",
+    "s4": "R",
+    "s7": "E",
+    "s6": "A",
+    "s9": "K",
+    "s8": "TH",
+    "s5": "E",
+    "s1": "I",
+    "s0": "CE",
+    "s2": "P",
+    "s10": "SH"
+  },
+  "solutions": [
+    {
+      "word": "BREAK",
+      "path": [
+        "s3",
+        "s4",
+        "s7",
+        "s6",
+        "s9"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s8",
+        "s5"
+      ]
+    },
+    {
+      "word": "ICE",
+      "path": [
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

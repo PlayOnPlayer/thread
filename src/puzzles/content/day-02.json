@@ -1,0 +1,57 @@
+{
+  "id": "day-02",
+  "title": "STAY ON THE PATH",
+  "layoutId": "layout-02",
+  "phrase": "STAY ON THE PATH",
+  "words": [
+    "STAY",
+    "ON",
+    "THE",
+    "PATH"
+  ],
+  "letters": {
+    "s7": "S",
+    "s10": "T",
+    "s4": "A",
+    "s8": "Y",
+    "s9": "ON",
+    "s6": "T",
+    "s2": "HE",
+    "s5": "P",
+    "s1": "A",
+    "s0": "TH",
+    "s3": "R"
+  },
+  "solutions": [
+    {
+      "word": "STAY",
+      "path": [
+        "s7",
+        "s10",
+        "s4",
+        "s8"
+      ]
+    },
+    {
+      "word": "ON",
+      "path": [
+        "s9"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s6",
+        "s2"
+      ]
+    },
+    {
+      "word": "PATH",
+      "path": [
+        "s5",
+        "s1",
+        "s0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "day-24",
+  "title": "WORD TO THE WISE",
+  "layoutId": "layout-24",
+  "phrase": "WORD TO THE WISE",
+  "words": [
+    "WORD",
+    "TO",
+    "THE",
+    "WISE"
+  ],
+  "letters": {
+    "s4": "W",
+    "s5": "O",
+    "s8": "R",
+    "s11": "D",
+    "s10": "T",
+    "s7": "O",
+    "s6": "T",
+    "s2": "HE",
+    "s1": "W",
+    "s0": "IS",
+    "s3": "E",
+    "s9": "R",
+    "s12": "S"
+  },
+  "solutions": [
+    {
+      "word": "WORD",
+      "path": [
+        "s4",
+        "s5",
+        "s8",
+        "s11"
+      ]
+    },
+    {
+      "word": "TO",
+      "path": [
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s6",
+        "s2"
+      ]
+    },
+    {
+      "word": "WISE",
+      "path": [
+        "s1",
+        "s0",
+        "s3"
+      ]
+    }
+  ]
+}

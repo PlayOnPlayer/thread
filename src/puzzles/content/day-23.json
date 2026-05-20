@@ -1,0 +1,50 @@
+{
+  "id": "day-23",
+  "title": "DAY BY DAY",
+  "layoutId": "layout-23",
+  "phrase": "DAY BY DAY",
+  "words": [
+    "DAY",
+    "BY",
+    "DAY"
+  ],
+  "letters": {
+    "s3": "D",
+    "s6": "A",
+    "s8": "Y",
+    "s2": "B",
+    "s1": "Y",
+    "s11": "D",
+    "s10": "A",
+    "s9": "Y",
+    "s0": "TR",
+    "s4": "SK",
+    "s5": "N",
+    "s7": "CH"
+  },
+  "solutions": [
+    {
+      "word": "DAY",
+      "path": [
+        "s3",
+        "s6",
+        "s8"
+      ]
+    },
+    {
+      "word": "BY",
+      "path": [
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
+        "s11",
+        "s10",
+        "s9"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "day-03",
+  "title": "DOWN TO EARTH",
+  "layoutId": "layout-03",
+  "phrase": "DOWN TO EARTH",
+  "words": [
+    "DOWN",
+    "TO",
+    "EARTH"
+  ],
+  "letters": {
+    "s3": "D",
+    "s6": "O",
+    "s5": "W",
+    "s10": "N",
+    "s1": "T",
+    "s2": "O",
+    "s11": "E",
+    "s8": "A",
+    "s9": "R",
+    "s4": "TH",
+    "s0": "CH",
+    "s7": "SH"
+  },
+  "solutions": [
+    {
+      "word": "DOWN",
+      "path": [
+        "s3",
+        "s6",
+        "s5",
+        "s10"
+      ]
+    },
+    {
+      "word": "TO",
+      "path": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "EARTH",
+      "path": [
+        "s11",
+        "s8",
+        "s9",
+        "s4"
+      ]
+    }
+  ]
+}

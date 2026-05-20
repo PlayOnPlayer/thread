@@ -1,0 +1,58 @@
+{
+  "id": "day-20",
+  "title": "TIME TO MOVE ON",
+  "layoutId": "layout-20",
+  "phrase": "TIME TO MOVE ON",
+  "words": [
+    "TIME",
+    "TO",
+    "MOVE",
+    "ON"
+  ],
+  "letters": {
+    "s5": "T",
+    "s4": "I",
+    "s8": "M",
+    "s9": "E",
+    "s2": "T",
+    "s3": "O",
+    "s7": "M",
+    "s6": "O",
+    "s10": "VE",
+    "s0": "ON",
+    "s1": "Q",
+    "s11": "R"
+  },
+  "solutions": [
+    {
+      "word": "TIME",
+      "path": [
+        "s5",
+        "s4",
+        "s8",
+        "s9"
+      ]
+    },
+    {
+      "word": "TO",
+      "path": [
+        "s2",
+        "s3"
+      ]
+    },
+    {
+      "word": "MOVE",
+      "path": [
+        "s7",
+        "s6",
+        "s10"
+      ]
+    },
+    {
+      "word": "ON",
+      "path": [
+        "s0"
+      ]
+    }
+  ]
+}

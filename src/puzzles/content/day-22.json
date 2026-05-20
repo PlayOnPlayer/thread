@@ -1,0 +1,60 @@
+{
+  "id": "day-22",
+  "title": "KEEP YOUR HEAD UP",
+  "layoutId": "layout-22",
+  "phrase": "KEEP YOUR HEAD UP",
+  "words": [
+    "KEEP",
+    "YOUR",
+    "HEAD",
+    "UP"
+  ],
+  "letters": {
+    "s11": "K",
+    "s10": "E",
+    "s4": "E",
+    "s6": "P",
+    "s0": "YO",
+    "s1": "U",
+    "s3": "R",
+    "s9": "HE",
+    "s5": "A",
+    "s8": "D",
+    "s7": "U",
+    "s2": "P"
+  },
+  "solutions": [
+    {
+      "word": "KEEP",
+      "path": [
+        "s11",
+        "s10",
+        "s4",
+        "s6"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s0",
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "word": "HEAD",
+      "path": [
+        "s9",
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "word": "UP",
+      "path": [
+        "s7",
+        "s2"
+      ]
+    }
+  ]
+}

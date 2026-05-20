@@ -1,0 +1,60 @@
+{
+  "id": "day-14",
+  "title": "GIVE IT YOUR ALL",
+  "layoutId": "layout-14",
+  "phrase": "GIVE IT YOUR ALL",
+  "words": [
+    "GIVE",
+    "IT",
+    "YOUR",
+    "ALL"
+  ],
+  "letters": {
+    "s2": "G",
+    "s5": "I",
+    "s8": "V",
+    "s4": "E",
+    "s11": "I",
+    "s6": "T",
+    "s3": "Y",
+    "s0": "OU",
+    "s1": "R",
+    "s12": "A",
+    "s10": "LL",
+    "s7": "R",
+    "s9": "S"
+  },
+  "solutions": [
+    {
+      "word": "GIVE",
+      "path": [
+        "s2",
+        "s5",
+        "s8",
+        "s4"
+      ]
+    },
+    {
+      "word": "IT",
+      "path": [
+        "s11",
+        "s6"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s3",
+        "s0",
+        "s1"
+      ]
+    },
+    {
+      "word": "ALL",
+      "path": [
+        "s12",
+        "s10"
+      ]
+    }
+  ]
+}

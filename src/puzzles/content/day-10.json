@@ -1,0 +1,60 @@
+{
+  "id": "day-10",
+  "title": "GO WITH THE FLOW",
+  "layoutId": "layout-10",
+  "phrase": "GO WITH THE FLOW",
+  "words": [
+    "GO",
+    "WITH",
+    "THE",
+    "FLOW"
+  ],
+  "letters": {
+    "s10": "G",
+    "s11": "O",
+    "s8": "W",
+    "s9": "I",
+    "s6": "T",
+    "s3": "H",
+    "s5": "T",
+    "s0": "HE",
+    "s7": "FL",
+    "s4": "O",
+    "s2": "W",
+    "s1": "R",
+    "s12": "S"
+  },
+  "solutions": [
+    {
+      "word": "GO",
+      "path": [
+        "s10",
+        "s11"
+      ]
+    },
+    {
+      "word": "WITH",
+      "path": [
+        "s8",
+        "s9",
+        "s6",
+        "s3"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s5",
+        "s0"
+      ]
+    },
+    {
+      "word": "FLOW",
+      "path": [
+        "s7",
+        "s4",
+        "s2"
+      ]
+    }
+  ]
+}

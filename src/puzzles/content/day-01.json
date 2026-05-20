@@ -1,0 +1,53 @@
+{
+  "id": "day-01",
+  "title": "TIME WILL TELL",
+  "layoutId": "layout-01",
+  "phrase": "TIME WILL TELL",
+  "words": [
+    "TIME",
+    "WILL",
+    "TELL"
+  ],
+  "letters": {
+    "s8": "T",
+    "s4": "I",
+    "s7": "M",
+    "s9": "E",
+    "s6": "W",
+    "s2": "I",
+    "s1": "L",
+    "s3": "L",
+    "s5": "TE",
+    "s10": "L",
+    "s11": "L",
+    "s0": "SH"
+  },
+  "solutions": [
+    {
+      "word": "TIME",
+      "path": [
+        "s8",
+        "s4",
+        "s7",
+        "s9"
+      ]
+    },
+    {
+      "word": "WILL",
+      "path": [
+        "s6",
+        "s2",
+        "s1",
+        "s3"
+      ]
+    },
+    {
+      "word": "TELL",
+      "path": [
+        "s5",
+        "s10",
+        "s11"
+      ]
+    }
+  ]
+}

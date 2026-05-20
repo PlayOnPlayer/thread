@@ -1,0 +1,58 @@
+{
+  "id": "day-06",
+  "title": "DO WHAT YOU CAN",
+  "layoutId": "layout-06",
+  "phrase": "DO WHAT YOU CAN",
+  "words": [
+    "DO",
+    "WHAT",
+    "YOU",
+    "CAN"
+  ],
+  "letters": {
+    "s1": "D",
+    "s5": "O",
+    "s7": "W",
+    "s8": "H",
+    "s11": "A",
+    "s10": "T",
+    "s3": "YO",
+    "s2": "U",
+    "s0": "CA",
+    "s4": "N",
+    "s6": "Q",
+    "s9": "R"
+  },
+  "solutions": [
+    {
+      "word": "DO",
+      "path": [
+        "s1",
+        "s5"
+      ]
+    },
+    {
+      "word": "WHAT",
+      "path": [
+        "s7",
+        "s8",
+        "s11",
+        "s10"
+      ]
+    },
+    {
+      "word": "YOU",
+      "path": [
+        "s3",
+        "s2"
+      ]
+    },
+    {
+      "word": "CAN",
+      "path": [
+        "s0",
+        "s4"
+      ]
+    }
+  ]
+}

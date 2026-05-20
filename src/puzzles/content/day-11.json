@@ -1,0 +1,49 @@
+{
+  "id": "day-11",
+  "title": "HIT THE ROAD",
+  "layoutId": "layout-11",
+  "phrase": "HIT THE ROAD",
+  "words": [
+    "HIT",
+    "THE",
+    "ROAD"
+  ],
+  "letters": {
+    "s4": "H",
+    "s5": "I",
+    "s8": "T",
+    "s7": "TH",
+    "s9": "E",
+    "s1": "R",
+    "s2": "OA",
+    "s6": "D",
+    "s0": "SP",
+    "s3": "P",
+    "s10": "Q"
+  },
+  "solutions": [
+    {
+      "word": "HIT",
+      "path": [
+        "s4",
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "word": "THE",
+      "path": [
+        "s7",
+        "s9"
+      ]
+    },
+    {
+      "word": "ROAD",
+      "path": [
+        "s1",
+        "s2",
+        "s6"
+      ]
+    }
+  ]
+}
