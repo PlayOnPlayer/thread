@@ -1,49 +1,47 @@
 {
   "id": "day-63",
-  "title": "MAKE WAVES TODAY",
+  "title": "STAY ONE AHEAD",
   "layoutId": "layout-63",
-  "phrase": "MAKE WAVES TODAY",
+  "phrase": "STAY ONE AHEAD",
   "words": [
-    "MAKE",
-    "WAVES",
-    "TODAY"
+    "STAY",
+    "ONE",
+    "AHEAD"
   ],
   "letters": {
-    "s9": "M",
-    "s11": "A",
-    "s7": "K",
-    "s8": "E",
-    "s6": "W",
-    "s3": "A",
-    "s4": "V",
-    "s5": "E",
-    "s10": "S",
-    "s2": "TO",
-    "s1": "D",
-    "s0": "AY"
+    "s9": "S",
+    "s5": "T",
+    "s4": "A",
+    "s7": "Y",
+    "s3": "O",
+    "s6": "N",
+    "s11": "E",
+    "s2": "AH",
+    "s1": "E",
+    "s0": "AD",
+    "s8": "O",
+    "s10": "O"
   },
   "solutions": [
     {
-      "word": "MAKE",
+      "word": "STAY",
       "path": [
         "s9",
-        "s11",
-        "s7",
-        "s8"
-      ]
-    },
-    {
-      "word": "WAVES",
-      "path": [
-        "s6",
-        "s3",
-        "s4",
         "s5",
-        "s10"
+        "s4",
+        "s7"
       ]
     },
     {
-      "word": "TODAY",
+      "word": "ONE",
+      "path": [
+        "s3",
+        "s6",
+        "s11"
+      ]
+    },
+    {
+      "word": "AHEAD",
       "path": [
         "s2",
         "s1",

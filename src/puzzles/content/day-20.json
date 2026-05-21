@@ -1,57 +1,59 @@
 {
   "id": "day-20",
-  "title": "TIME TO MOVE ON",
+  "title": "MAKE ROOM FOR JOY",
   "layoutId": "layout-20",
-  "phrase": "TIME TO MOVE ON",
+  "phrase": "MAKE ROOM FOR JOY",
   "words": [
-    "TIME",
-    "TO",
-    "MOVE",
-    "ON"
+    "MAKE",
+    "ROOM",
+    "FOR",
+    "JOY"
   ],
   "letters": {
-    "s1": "T",
-    "s3": "I",
-    "s7": "M",
-    "s6": "E",
-    "s11": "T",
-    "s9": "O",
-    "s0": "MO",
-    "s4": "V",
-    "s8": "E",
-    "s10": "ON",
-    "s2": "Q",
-    "s5": "R"
+    "s9": "M",
+    "s8": "A",
+    "s4": "K",
+    "s5": "E",
+    "s2": "R",
+    "s3": "O",
+    "s7": "O",
+    "s6": "M",
+    "s1": "F",
+    "s0": "OR",
+    "s10": "JO",
+    "s11": "Y"
   },
   "solutions": [
     {
-      "word": "TIME",
+      "word": "MAKE",
       "path": [
-        "s1",
+        "s9",
+        "s8",
+        "s4",
+        "s5"
+      ]
+    },
+    {
+      "word": "ROOM",
+      "path": [
+        "s2",
         "s3",
         "s7",
         "s6"
       ]
     },
     {
-      "word": "TO",
+      "word": "FOR",
       "path": [
-        "s11",
-        "s9"
+        "s1",
+        "s0"
       ]
     },
     {
-      "word": "MOVE",
+      "word": "JOY",
       "path": [
-        "s0",
-        "s4",
-        "s8"
-      ]
-    },
-    {
-      "word": "ON",
-      "path": [
-        "s10"
+        "s10",
+        "s11"
       ]
     }
   ]

@@ -1,59 +1,58 @@
 {
   "id": "day-06",
-  "title": "FIND MAGIC IN NOW",
+  "title": "STAY KIND TO ALL",
   "layoutId": "layout-06",
-  "phrase": "FIND MAGIC IN NOW",
+  "phrase": "STAY KIND TO ALL",
   "words": [
-    "FIND",
-    "MAGIC",
-    "IN",
-    "NOW"
+    "STAY",
+    "KIND",
+    "TO",
+    "ALL"
   ],
   "letters": {
-    "s11": "F",
-    "s7": "I",
-    "s6": "N",
-    "s10": "D",
-    "s0": "MA",
-    "s1": "G",
-    "s5": "I",
-    "s4": "C",
-    "s9": "I",
-    "s8": "N",
-    "s2": "N",
-    "s3": "OW"
+    "s5": "S",
+    "s7": "T",
+    "s6": "A",
+    "s10": "Y",
+    "s2": "K",
+    "s3": "IN",
+    "s9": "D",
+    "s11": "T",
+    "s8": "O",
+    "s1": "A",
+    "s0": "LL",
+    "s4": "O"
   },
   "solutions": [
     {
-      "word": "FIND",
+      "word": "STAY",
       "path": [
-        "s11",
+        "s5",
         "s7",
         "s6",
         "s10"
       ]
     },
     {
-      "word": "MAGIC",
+      "word": "KIND",
       "path": [
-        "s0",
-        "s1",
-        "s5",
-        "s4"
+        "s2",
+        "s3",
+        "s9"
       ]
     },
     {
-      "word": "IN",
+      "word": "TO",
       "path": [
-        "s9",
+        "s11",
         "s8"
       ]
     },
     {
-      "word": "NOW",
+      "word": "ALL",
       "path": [
-        "s2",
-        "s3"
+        "s1",
+        "s0"
       ]
     }
   ]

@@ -1,30 +1,30 @@
 {
   "id": "day-30",
-  "title": "PLAY BY THE RULES",
+  "title": "STAY IN THE GAME",
   "layoutId": "layout-30",
-  "phrase": "PLAY BY THE RULES",
+  "phrase": "STAY IN THE GAME",
   "words": [
-    "PLAY",
-    "BY",
+    "STAY",
+    "IN",
     "THE",
-    "RULES"
+    "GAME"
   ],
   "letters": {
-    "s5": "P",
-    "s1": "L",
+    "s5": "S",
+    "s1": "T",
     "s2": "A",
     "s3": "Y",
-    "s9": "B",
-    "s10": "Y",
-    "s4": "T",
-    "s0": "HE",
-    "s7": "RU",
-    "s8": "L",
-    "s6": "ES"
+    "s0": "IN",
+    "s6": "TH",
+    "s9": "E",
+    "s4": "G",
+    "s7": "AM",
+    "s8": "E",
+    "s10": "O"
   },
   "solutions": [
     {
-      "word": "PLAY",
+      "word": "STAY",
       "path": [
         "s5",
         "s1",
@@ -33,25 +33,24 @@
       ]
     },
     {
-      "word": "BY",
+      "word": "IN",
       "path": [
-        "s9",
-        "s10"
+        "s0"
       ]
     },
     {
       "word": "THE",
       "path": [
-        "s4",
-        "s0"
+        "s6",
+        "s9"
       ]
     },
     {
-      "word": "RULES",
+      "word": "GAME",
       "path": [
+        "s4",
         "s7",
-        "s8",
-        "s6"
+        "s8"
       ]
     }
   ]

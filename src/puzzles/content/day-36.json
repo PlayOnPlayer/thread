@@ -1,28 +1,28 @@
 {
   "id": "day-36",
-  "title": "MAKE ROOM FOR JOY",
+  "title": "MAKE ART EVERY DAY",
   "layoutId": "layout-36",
-  "phrase": "MAKE ROOM FOR JOY",
+  "phrase": "MAKE ART EVERY DAY",
   "words": [
     "MAKE",
-    "ROOM",
-    "FOR",
-    "JOY"
+    "ART",
+    "EVERY",
+    "DAY"
   ],
   "letters": {
     "s8": "M",
     "s7": "A",
-    "s10": "K",
-    "s6": "E",
-    "s3": "R",
-    "s1": "O",
-    "s2": "O",
-    "s4": "M",
-    "s5": "F",
-    "s0": "OR",
-    "s9": "JO",
-    "s12": "Y",
-    "s11": "S"
+    "s6": "K",
+    "s10": "E",
+    "s1": "A",
+    "s2": "R",
+    "s4": "T",
+    "s5": "E",
+    "s9": "VE",
+    "s12": "R",
+    "s11": "Y",
+    "s3": "D",
+    "s0": "AY"
   },
   "solutions": [
     {
@@ -30,31 +30,32 @@
       "path": [
         "s8",
         "s7",
-        "s10",
-        "s6"
+        "s6",
+        "s10"
       ]
     },
     {
-      "word": "ROOM",
+      "word": "ART",
       "path": [
-        "s3",
         "s1",
         "s2",
         "s4"
       ]
     },
     {
-      "word": "FOR",
+      "word": "EVERY",
       "path": [
         "s5",
-        "s0"
+        "s9",
+        "s12",
+        "s11"
       ]
     },
     {
-      "word": "JOY",
+      "word": "DAY",
       "path": [
-        "s9",
-        "s12"
+        "s3",
+        "s0"
       ]
     }
   ]

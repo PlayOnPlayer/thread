@@ -1,57 +1,58 @@
 {
   "id": "day-22",
-  "title": "DO WHAT YOU CAN",
+  "title": "ONE STEP AT TIME",
   "layoutId": "layout-22",
-  "phrase": "DO WHAT YOU CAN",
+  "phrase": "ONE STEP AT TIME",
   "words": [
-    "DO",
-    "WHAT",
-    "YOU",
-    "CAN"
+    "ONE",
+    "STEP",
+    "AT",
+    "TIME"
   ],
   "letters": {
-    "s4": "D",
-    "s6": "O",
-    "s1": "W",
-    "s2": "H",
-    "s7": "A",
-    "s10": "T",
-    "s0": "YO",
-    "s3": "U",
-    "s11": "C",
-    "s9": "AN",
-    "s5": "Q",
-    "s8": "R"
+    "s2": "O",
+    "s4": "N",
+    "s6": "E",
+    "s8": "S",
+    "s5": "T",
+    "s9": "EP",
+    "s10": "A",
+    "s7": "T",
+    "s1": "T",
+    "s3": "I",
+    "s0": "ME",
+    "s11": "O"
   },
   "solutions": [
     {
-      "word": "DO",
+      "word": "ONE",
       "path": [
+        "s2",
         "s4",
         "s6"
       ]
     },
     {
-      "word": "WHAT",
+      "word": "STEP",
+      "path": [
+        "s8",
+        "s5",
+        "s9"
+      ]
+    },
+    {
+      "word": "AT",
+      "path": [
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "word": "TIME",
       "path": [
         "s1",
-        "s2",
-        "s7",
-        "s10"
-      ]
-    },
-    {
-      "word": "YOU",
-      "path": [
-        "s0",
-        "s3"
-      ]
-    },
-    {
-      "word": "CAN",
-      "path": [
-        "s11",
-        "s9"
+        "s3",
+        "s0"
       ]
     }
   ]

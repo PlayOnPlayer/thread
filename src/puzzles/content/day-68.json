@@ -1,61 +1,60 @@
 {
   "id": "day-68",
-  "title": "LIVE LIFE OUT LOUD",
+  "title": "PLAY BY THE RULES",
   "layoutId": "layout-68",
-  "phrase": "LIVE LIFE OUT LOUD",
+  "phrase": "PLAY BY THE RULES",
   "words": [
-    "LIVE",
-    "LIFE",
-    "OUT",
-    "LOUD"
+    "PLAY",
+    "BY",
+    "THE",
+    "RULES"
   ],
   "letters": {
-    "s4": "L",
-    "s3": "I",
-    "s6": "V",
-    "s9": "E",
-    "s12": "L",
-    "s10": "I",
-    "s7": "F",
-    "s2": "E",
-    "s1": "O",
-    "s0": "UT",
+    "s7": "P",
+    "s10": "L",
+    "s12": "A",
+    "s11": "Y",
+    "s9": "B",
+    "s4": "Y",
+    "s1": "T",
+    "s3": "H",
+    "s6": "E",
+    "s0": "RU",
     "s5": "L",
-    "s8": "OU",
-    "s11": "D"
+    "s8": "ES",
+    "s2": "O"
   },
   "solutions": [
     {
-      "word": "LIVE",
+      "word": "PLAY",
       "path": [
-        "s4",
-        "s3",
-        "s6",
-        "s9"
-      ]
-    },
-    {
-      "word": "LIFE",
-      "path": [
-        "s12",
-        "s10",
         "s7",
-        "s2"
+        "s10",
+        "s12",
+        "s11"
       ]
     },
     {
-      "word": "OUT",
+      "word": "BY",
+      "path": [
+        "s9",
+        "s4"
+      ]
+    },
+    {
+      "word": "THE",
       "path": [
         "s1",
-        "s0"
+        "s3",
+        "s6"
       ]
     },
     {
-      "word": "LOUD",
+      "word": "RULES",
       "path": [
+        "s0",
         "s5",
-        "s8",
-        "s11"
+        "s8"
       ]
     }
   ]

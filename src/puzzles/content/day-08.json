@@ -1,62 +1,62 @@
 {
   "id": "day-08",
-  "title": "STAY KIND TO ALL",
+  "title": "KEEP YOUR EYES UP",
   "layoutId": "layout-08",
-  "phrase": "STAY KIND TO ALL",
+  "phrase": "KEEP YOUR EYES UP",
   "words": [
-    "STAY",
-    "KIND",
-    "TO",
-    "ALL"
+    "KEEP",
+    "YOUR",
+    "EYES",
+    "UP"
   ],
   "letters": {
-    "s8": "S",
-    "s9": "T",
-    "s3": "A",
-    "s4": "Y",
-    "s1": "K",
-    "s2": "I",
-    "s7": "N",
-    "s11": "D",
-    "s5": "T",
-    "s6": "O",
-    "s12": "A",
-    "s13": "L",
-    "s10": "L",
-    "s0": "QU"
+    "s13": "K",
+    "s12": "E",
+    "s8": "E",
+    "s5": "P",
+    "s7": "Y",
+    "s4": "O",
+    "s2": "U",
+    "s1": "R",
+    "s11": "E",
+    "s10": "Y",
+    "s9": "E",
+    "s3": "S",
+    "s0": "UP",
+    "s6": "O"
   },
   "solutions": [
     {
-      "word": "STAY",
+      "word": "KEEP",
       "path": [
-        "s8",
-        "s9",
-        "s3",
-        "s4"
-      ]
-    },
-    {
-      "word": "KIND",
-      "path": [
-        "s1",
-        "s2",
-        "s7",
-        "s11"
-      ]
-    },
-    {
-      "word": "TO",
-      "path": [
-        "s5",
-        "s6"
-      ]
-    },
-    {
-      "word": "ALL",
-      "path": [
-        "s12",
         "s13",
-        "s10"
+        "s12",
+        "s8",
+        "s5"
+      ]
+    },
+    {
+      "word": "YOUR",
+      "path": [
+        "s7",
+        "s4",
+        "s2",
+        "s1"
+      ]
+    },
+    {
+      "word": "EYES",
+      "path": [
+        "s11",
+        "s10",
+        "s9",
+        "s3"
+      ]
+    },
+    {
+      "word": "UP",
+      "path": [
+        "s0"
       ]
     }
   ]

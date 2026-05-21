@@ -1,51 +1,51 @@
 {
   "id": "day-51",
-  "title": "FREE AND CLEAR",
+  "title": "DOWN TO EARTH",
   "layoutId": "layout-51",
-  "phrase": "FREE AND CLEAR",
+  "phrase": "DOWN TO EARTH",
   "words": [
-    "FREE",
-    "AND",
-    "CLEAR"
+    "DOWN",
+    "TO",
+    "EARTH"
   ],
   "letters": {
-    "s11": "F",
-    "s7": "R",
-    "s8": "E",
-    "s9": "E",
-    "s5": "A",
-    "s6": "N",
     "s3": "D",
-    "s4": "CL",
-    "s1": "E",
-    "s0": "AR",
-    "s2": "Q",
-    "s10": "R"
+    "s7": "O",
+    "s10": "W",
+    "s5": "N",
+    "s1": "T",
+    "s2": "O",
+    "s11": "E",
+    "s8": "A",
+    "s9": "R",
+    "s4": "TH",
+    "s0": "CH",
+    "s6": "I"
   },
   "solutions": [
     {
-      "word": "FREE",
+      "word": "DOWN",
+      "path": [
+        "s3",
+        "s7",
+        "s10",
+        "s5"
+      ]
+    },
+    {
+      "word": "TO",
+      "path": [
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "EARTH",
       "path": [
         "s11",
-        "s7",
         "s8",
-        "s9"
-      ]
-    },
-    {
-      "word": "AND",
-      "path": [
-        "s5",
-        "s6",
-        "s3"
-      ]
-    },
-    {
-      "word": "CLEAR",
-      "path": [
-        "s4",
-        "s1",
-        "s0"
+        "s9",
+        "s4"
       ]
     }
   ]

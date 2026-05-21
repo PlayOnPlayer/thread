@@ -1,60 +1,60 @@
 {
   "id": "day-24",
-  "title": "ONE STEP AT TIME",
+  "title": "STAY BOLD IN LIFE",
   "layoutId": "layout-24",
-  "phrase": "ONE STEP AT TIME",
+  "phrase": "STAY BOLD IN LIFE",
   "words": [
-    "ONE",
-    "STEP",
-    "AT",
-    "TIME"
+    "STAY",
+    "BOLD",
+    "IN",
+    "LIFE"
   ],
   "letters": {
-    "s7": "O",
-    "s4": "N",
-    "s10": "E",
-    "s8": "S",
-    "s6": "T",
-    "s5": "E",
-    "s1": "P",
-    "s11": "A",
-    "s12": "T",
-    "s0": "TI",
-    "s3": "M",
-    "s9": "E",
-    "s2": "QU"
+    "s7": "S",
+    "s10": "T",
+    "s4": "A",
+    "s5": "Y",
+    "s9": "B",
+    "s3": "O",
+    "s0": "LD",
+    "s12": "I",
+    "s11": "N",
+    "s6": "L",
+    "s2": "IF",
+    "s1": "E",
+    "s8": "O"
   },
   "solutions": [
     {
-      "word": "ONE",
+      "word": "STAY",
       "path": [
         "s7",
+        "s10",
         "s4",
-        "s10"
+        "s5"
       ]
     },
     {
-      "word": "STEP",
+      "word": "BOLD",
       "path": [
-        "s8",
-        "s6",
-        "s5",
-        "s1"
-      ]
-    },
-    {
-      "word": "AT",
-      "path": [
-        "s11",
-        "s12"
-      ]
-    },
-    {
-      "word": "TIME",
-      "path": [
-        "s0",
+        "s9",
         "s3",
-        "s9"
+        "s0"
+      ]
+    },
+    {
+      "word": "IN",
+      "path": [
+        "s12",
+        "s11"
+      ]
+    },
+    {
+      "word": "LIFE",
+      "path": [
+        "s6",
+        "s2",
+        "s1"
       ]
     }
   ]

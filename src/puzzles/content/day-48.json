@@ -1,51 +1,59 @@
 {
   "id": "day-48",
-  "title": "STAY ONE AHEAD",
+  "title": "LESS TALK MORE DO",
   "layoutId": "layout-48",
-  "phrase": "STAY ONE AHEAD",
+  "phrase": "LESS TALK MORE DO",
   "words": [
-    "STAY",
-    "ONE",
-    "AHEAD"
+    "LESS",
+    "TALK",
+    "MORE",
+    "DO"
   ],
   "letters": {
+    "s9": "L",
+    "s6": "E",
+    "s4": "S",
     "s3": "S",
-    "s1": "T",
-    "s4": "A",
-    "s6": "Y",
-    "s11": "O",
-    "s9": "N",
-    "s10": "E",
-    "s8": "AH",
-    "s5": "E",
-    "s0": "AD",
-    "s2": "Q",
-    "s7": "R"
+    "s7": "T",
+    "s5": "A",
+    "s8": "LK",
+    "s0": "MO",
+    "s1": "R",
+    "s2": "E",
+    "s10": "D",
+    "s11": "O"
   },
   "solutions": [
     {
-      "word": "STAY",
+      "word": "LESS",
       "path": [
-        "s3",
-        "s1",
-        "s4",
-        "s6"
-      ]
-    },
-    {
-      "word": "ONE",
-      "path": [
-        "s11",
         "s9",
-        "s10"
+        "s6",
+        "s4",
+        "s3"
       ]
     },
     {
-      "word": "AHEAD",
+      "word": "TALK",
       "path": [
-        "s8",
+        "s7",
         "s5",
-        "s0"
+        "s8"
+      ]
+    },
+    {
+      "word": "MORE",
+      "path": [
+        "s0",
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "DO",
+      "path": [
+        "s10",
+        "s11"
       ]
     }
   ]

@@ -1,47 +1,49 @@
 {
   "id": "day-73",
-  "title": "DREAM IN HD",
+  "title": "TURN THE PAGE",
   "layoutId": "layout-73",
-  "phrase": "DREAM IN HD",
+  "phrase": "TURN THE PAGE",
   "words": [
-    "DREAM",
-    "IN",
-    "HD"
+    "TURN",
+    "THE",
+    "PAGE"
   ],
   "letters": {
-    "s9": "D",
+    "s4": "T",
+    "s3": "U",
     "s6": "R",
-    "s3": "E",
-    "s4": "A",
-    "s1": "M",
-    "s2": "IN",
-    "s0": "HD",
-    "s5": "M",
-    "s7": "SP",
+    "s9": "N",
+    "s10": "T",
+    "s7": "HE",
     "s8": "P",
-    "s10": "Q"
+    "s5": "A",
+    "s2": "GE",
+    "s0": "CH",
+    "s1": "I"
   },
   "solutions": [
     {
-      "word": "DREAM",
+      "word": "TURN",
       "path": [
-        "s9",
-        "s6",
-        "s3",
         "s4",
-        "s1"
+        "s3",
+        "s6",
+        "s9"
       ]
     },
     {
-      "word": "IN",
+      "word": "THE",
       "path": [
+        "s10",
+        "s7"
+      ]
+    },
+    {
+      "word": "PAGE",
+      "path": [
+        "s8",
+        "s5",
         "s2"
-      ]
-    },
-    {
-      "word": "HD",
-      "path": [
-        "s0"
       ]
     }
   ]

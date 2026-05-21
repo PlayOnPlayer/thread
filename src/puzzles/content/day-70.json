@@ -1,61 +1,60 @@
 {
   "id": "day-70",
-  "title": "TAKE THE HIGH ROAD",
+  "title": "SIGN OF THE TIMES",
   "layoutId": "layout-70",
-  "phrase": "TAKE THE HIGH ROAD",
+  "phrase": "SIGN OF THE TIMES",
   "words": [
-    "TAKE",
+    "SIGN",
+    "OF",
     "THE",
-    "HIGH",
-    "ROAD"
+    "TIMES"
   ],
   "letters": {
+    "s2": "S",
+    "s4": "I",
+    "s3": "G",
+    "s8": "N",
+    "s5": "O",
+    "s9": "F",
     "s6": "T",
-    "s5": "A",
-    "s11": "K",
-    "s9": "E",
-    "s8": "T",
-    "s3": "H",
-    "s4": "E",
-    "s2": "H",
-    "s1": "I",
-    "s0": "GH",
-    "s12": "R",
-    "s10": "OA",
-    "s7": "D"
+    "s0": "HE",
+    "s7": "T",
+    "s10": "IM",
+    "s12": "E",
+    "s11": "S",
+    "s1": "O"
   },
   "solutions": [
     {
-      "word": "TAKE",
+      "word": "SIGN",
       "path": [
-        "s6",
+        "s2",
+        "s4",
+        "s3",
+        "s8"
+      ]
+    },
+    {
+      "word": "OF",
+      "path": [
         "s5",
-        "s11",
         "s9"
       ]
     },
     {
       "word": "THE",
       "path": [
-        "s8",
-        "s3",
-        "s4"
-      ]
-    },
-    {
-      "word": "HIGH",
-      "path": [
-        "s2",
-        "s1",
+        "s6",
         "s0"
       ]
     },
     {
-      "word": "ROAD",
+      "word": "TIMES",
       "path": [
-        "s12",
+        "s7",
         "s10",
-        "s7"
+        "s12",
+        "s11"
       ]
     }
   ]

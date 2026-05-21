@@ -7,6 +7,8 @@ import { Board } from './Board';
 import { getPaginationItems } from './pagination';
 import { PhraseStrip } from './PhraseStrip';
 import { TriesDots } from './TriesDots';
+import { getGameHint } from '../experiments/copy';
+import { useFirstVisitDemo } from '../experiments/onboarding/useFirstVisitDemo';
 import './Game.css';
 
 const MAX_TRIES = 3;
@@ -54,6 +56,7 @@ export function Game() {
 
   const lost = triesLeft === 0 && !state.won;
   const gameOver = state.won || lost;
+  const { demoPathIds, demoActive } = useFirstVisitDemo(puzzle, gameOver);
   const pathLetters = pathToLetters(path);
   const paginationItems = useMemo(
     () => getPaginationItems(activeLevel, totalLevels),
@@ -91,7 +94,7 @@ export function Game() {
 
   const handleTileClick = useCallback(
     (tile: TileDef) => {
-      if (gameOver || wrongFeedbackActive) return;
+      if (gameOver || wrongFeedbackActive || demoActive) return;
 
       setFeedbackPath([]);
       setPath((prev) => {
@@ -116,7 +119,7 @@ export function Game() {
         return [...prev, tile];
       });
     },
-    [gameOver, wrongFeedbackActive, puzzle.tiles],
+    [gameOver, wrongFeedbackActive, demoActive, puzzle.tiles],
   );
 
   const clearPath = useCallback(() => {
@@ -178,7 +181,7 @@ export function Game() {
       <header className="game__header">
         <h1 className="game__title">PHRASE FINDER</h1>
         <p className={`game__hint ${gameOver ? 'game__slot--hidden' : ''}`}>
-          connect the boxes to find the words
+          {getGameHint()}
         </p>
       </header>
 
@@ -191,6 +194,7 @@ export function Game() {
         lastResult={path.length > 0 ? null : state.lastResult}
         disabled={gameOver}
         wrongFeedbackActive={wrongFeedbackActive}
+        demoPathIds={demoPathIds}
         lost={lost}
         won={state.won}
       />

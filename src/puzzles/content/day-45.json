@@ -1,50 +1,50 @@
 {
   "id": "day-45",
-  "title": "FIND YOUR VOICE",
+  "title": "KEEP THE FAITH",
   "layoutId": "layout-45",
-  "phrase": "FIND YOUR VOICE",
+  "phrase": "KEEP THE FAITH",
   "words": [
-    "FIND",
-    "YOUR",
-    "VOICE"
+    "KEEP",
+    "THE",
+    "FAITH"
   ],
   "letters": {
-    "s9": "F",
-    "s5": "I",
-    "s8": "N",
-    "s10": "D",
-    "s7": "YO",
-    "s3": "U",
-    "s4": "R",
-    "s2": "VO",
-    "s1": "I",
-    "s0": "CE",
-    "s6": "R"
+    "s9": "K",
+    "s6": "E",
+    "s5": "E",
+    "s10": "P",
+    "s1": "T",
+    "s4": "H",
+    "s8": "E",
+    "s0": "FA",
+    "s3": "I",
+    "s7": "TH",
+    "s2": "SH"
   },
   "solutions": [
     {
-      "word": "FIND",
+      "word": "KEEP",
       "path": [
         "s9",
+        "s6",
         "s5",
-        "s8",
         "s10"
       ]
     },
     {
-      "word": "YOUR",
+      "word": "THE",
       "path": [
-        "s7",
-        "s3",
-        "s4"
+        "s1",
+        "s4",
+        "s8"
       ]
     },
     {
-      "word": "VOICE",
+      "word": "FAITH",
       "path": [
-        "s2",
-        "s1",
-        "s0"
+        "s0",
+        "s3",
+        "s7"
       ]
     }
   ]

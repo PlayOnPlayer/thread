@@ -14,6 +14,7 @@ import type { LayoutDef, LayoutSlot } from '../src/layouts/types';
 import { mergePuzzleContent } from '../src/layouts/mergePuzzle';
 import { validatePuzzle } from '../src/engine/puzzle';
 import type { PuzzleContent } from '../src/layouts/types';
+import { pickDecoySingle } from '../src/experiments/decoys';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -207,7 +208,6 @@ function phrasesToTry(puzzleIndex: number): string[][] {
   return ordered;
 }
 
-const DECOY_SINGLES = 'BCDFGHJKLMNPQRSTVWXYZ';
 const DECOY_PAIRS = ['TH', 'ST', 'ND', 'CK', 'PL', 'GR', 'BR', 'FL', 'TR', 'SK', 'SP', 'CH', 'SH', 'QU', 'PR', 'CL', 'BL', 'DR', 'FR', 'GL'];
 
 function layoutSignature(slots: LayoutSlot[]): string {
@@ -497,7 +497,7 @@ function fillDecoys(
       letters[slot.id] = DECOY_PAIRS[di % DECOY_PAIRS.length]!;
       di++;
     } else {
-      letters[slot.id] = DECOY_SINGLES[di % DECOY_SINGLES.length]!;
+      letters[slot.id] = pickDecoySingle(di + seed);
       di++;
     }
   }

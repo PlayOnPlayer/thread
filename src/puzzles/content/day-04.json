@@ -1,42 +1,32 @@
 {
   "id": "day-04",
-  "title": "NEVER GIVE UP HOPE",
+  "title": "MIND YOUR OWN PACE",
   "layoutId": "layout-04",
-  "phrase": "NEVER GIVE UP HOPE",
+  "phrase": "MIND YOUR OWN PACE",
   "words": [
-    "NEVER",
-    "GIVE",
-    "UP",
-    "HOPE"
+    "MIND",
+    "YOUR",
+    "OWN",
+    "PACE"
   ],
   "letters": {
-    "s7": "N",
-    "s3": "E",
-    "s4": "V",
-    "s2": "E",
-    "s1": "R",
-    "s10": "G",
+    "s10": "M",
     "s9": "I",
-    "s11": "V",
-    "s12": "E",
-    "s0": "UP",
-    "s6": "H",
-    "s8": "OP",
-    "s5": "E"
+    "s11": "N",
+    "s12": "D",
+    "s6": "Y",
+    "s3": "O",
+    "s7": "U",
+    "s4": "R",
+    "s8": "OW",
+    "s5": "N",
+    "s0": "PA",
+    "s1": "C",
+    "s2": "E"
   },
   "solutions": [
     {
-      "word": "NEVER",
-      "path": [
-        "s7",
-        "s3",
-        "s4",
-        "s2",
-        "s1"
-      ]
-    },
-    {
-      "word": "GIVE",
+      "word": "MIND",
       "path": [
         "s10",
         "s9",
@@ -45,17 +35,27 @@
       ]
     },
     {
-      "word": "UP",
+      "word": "YOUR",
       "path": [
-        "s0"
+        "s6",
+        "s3",
+        "s7",
+        "s4"
       ]
     },
     {
-      "word": "HOPE",
+      "word": "OWN",
       "path": [
-        "s6",
         "s8",
         "s5"
+      ]
+    },
+    {
+      "word": "PACE",
+      "path": [
+        "s0",
+        "s1",
+        "s2"
       ]
     }
   ]

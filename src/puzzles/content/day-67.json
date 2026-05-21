@@ -1,53 +1,53 @@
 {
   "id": "day-67",
-  "title": "DOWN TO EARTH",
+  "title": "GO WITH FLOW",
   "layoutId": "layout-67",
-  "phrase": "DOWN TO EARTH",
+  "phrase": "GO WITH FLOW",
   "words": [
-    "DOWN",
-    "TO",
-    "EARTH"
+    "GO",
+    "WITH",
+    "FLOW"
   ],
   "letters": {
-    "s4": "D",
+    "s11": "G",
+    "s12": "O",
+    "s10": "W",
+    "s9": "I",
+    "s8": "T",
+    "s5": "H",
+    "s4": "F",
+    "s2": "L",
     "s7": "O",
-    "s9": "W",
-    "s8": "N",
-    "s6": "T",
-    "s3": "O",
-    "s0": "EA",
-    "s5": "R",
-    "s11": "T",
-    "s12": "H",
-    "s1": "P",
-    "s2": "Q",
-    "s10": "R",
-    "s13": "S"
+    "s3": "W",
+    "s0": "SP",
+    "s1": "I",
+    "s6": "I",
+    "s13": "I"
   },
   "solutions": [
     {
-      "word": "DOWN",
+      "word": "GO",
       "path": [
-        "s4",
-        "s7",
-        "s9",
-        "s8"
-      ]
-    },
-    {
-      "word": "TO",
-      "path": [
-        "s6",
-        "s3"
-      ]
-    },
-    {
-      "word": "EARTH",
-      "path": [
-        "s0",
-        "s5",
         "s11",
         "s12"
+      ]
+    },
+    {
+      "word": "WITH",
+      "path": [
+        "s10",
+        "s9",
+        "s8",
+        "s5"
+      ]
+    },
+    {
+      "word": "FLOW",
+      "path": [
+        "s4",
+        "s2",
+        "s7",
+        "s3"
       ]
     }
   ]

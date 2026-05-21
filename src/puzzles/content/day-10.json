@@ -1,61 +1,61 @@
 {
   "id": "day-10",
-  "title": "MAKE ART EVERY DAY",
+  "title": "FIND CALM IN STORM",
   "layoutId": "layout-10",
-  "phrase": "MAKE ART EVERY DAY",
+  "phrase": "FIND CALM IN STORM",
   "words": [
-    "MAKE",
-    "ART",
-    "EVERY",
-    "DAY"
+    "FIND",
+    "CALM",
+    "IN",
+    "STORM"
   ],
   "letters": {
-    "s9": "M",
-    "s8": "A",
-    "s5": "K",
-    "s6": "E",
-    "s2": "A",
-    "s4": "R",
-    "s1": "T",
-    "s7": "EV",
-    "s10": "E",
-    "s11": "R",
-    "s12": "Y",
-    "s0": "DA",
-    "s3": "Y"
+    "s1": "F",
+    "s3": "I",
+    "s4": "N",
+    "s2": "D",
+    "s12": "C",
+    "s11": "A",
+    "s9": "L",
+    "s10": "M",
+    "s5": "I",
+    "s8": "N",
+    "s0": "ST",
+    "s6": "O",
+    "s7": "RM"
   },
   "solutions": [
     {
-      "word": "MAKE",
+      "word": "FIND",
       "path": [
-        "s9",
-        "s8",
-        "s5",
-        "s6"
-      ]
-    },
-    {
-      "word": "ART",
-      "path": [
-        "s2",
+        "s1",
+        "s3",
         "s4",
-        "s1"
+        "s2"
       ]
     },
     {
-      "word": "EVERY",
+      "word": "CALM",
       "path": [
-        "s7",
-        "s10",
+        "s12",
         "s11",
-        "s12"
+        "s9",
+        "s10"
       ]
     },
     {
-      "word": "DAY",
+      "word": "IN",
+      "path": [
+        "s5",
+        "s8"
+      ]
+    },
+    {
+      "word": "STORM",
       "path": [
         "s0",
-        "s3"
+        "s6",
+        "s7"
       ]
     }
   ]

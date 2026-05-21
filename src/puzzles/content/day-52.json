@@ -1,60 +1,59 @@
 {
   "id": "day-52",
-  "title": "WORD TO THE WISE",
+  "title": "STAY ON THE PATH",
   "layoutId": "layout-52",
-  "phrase": "WORD TO THE WISE",
+  "phrase": "STAY ON THE PATH",
   "words": [
-    "WORD",
-    "TO",
+    "STAY",
+    "ON",
     "THE",
-    "WISE"
+    "PATH"
   ],
   "letters": {
-    "s8": "W",
-    "s6": "O",
-    "s7": "R",
-    "s10": "D",
-    "s1": "T",
-    "s2": "O",
-    "s9": "T",
-    "s12": "H",
-    "s11": "E",
-    "s3": "W",
-    "s0": "IS",
-    "s5": "E",
-    "s4": "QU"
+    "s6": "S",
+    "s10": "T",
+    "s7": "A",
+    "s5": "Y",
+    "s9": "O",
+    "s12": "N",
+    "s0": "TH",
+    "s1": "E",
+    "s2": "P",
+    "s4": "AT",
+    "s3": "H",
+    "s8": "O",
+    "s11": "O"
   },
   "solutions": [
     {
-      "word": "WORD",
+      "word": "STAY",
       "path": [
-        "s8",
         "s6",
+        "s10",
         "s7",
-        "s10"
+        "s5"
       ]
     },
     {
-      "word": "TO",
+      "word": "ON",
       "path": [
-        "s1",
-        "s2"
+        "s9",
+        "s12"
       ]
     },
     {
       "word": "THE",
       "path": [
-        "s9",
-        "s12",
-        "s11"
+        "s0",
+        "s1"
       ]
     },
     {
-      "word": "WISE",
+      "word": "PATH",
       "path": [
-        "s3",
-        "s0",
-        "s5"
+        "s2",
+        "s4",
+        "s3"
       ]
     }
   ]

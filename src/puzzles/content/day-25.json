@@ -1,49 +1,52 @@
 {
   "id": "day-25",
-  "title": "BUILD IT UP",
+  "title": "OPEN NEW DOORS",
   "layoutId": "layout-25",
-  "phrase": "BUILD IT UP",
+  "phrase": "OPEN NEW DOORS",
   "words": [
-    "BUILD",
-    "IT",
-    "UP"
+    "OPEN",
+    "NEW",
+    "DOORS"
   ],
   "letters": {
-    "s11": "B",
-    "s9": "U",
-    "s4": "I",
-    "s2": "L",
-    "s3": "D",
-    "s10": "I",
-    "s8": "T",
-    "s6": "UP",
-    "s0": "SK",
-    "s1": "N",
-    "s5": "P",
-    "s7": "Q"
+    "s3": "O",
+    "s2": "P",
+    "s4": "E",
+    "s9": "N",
+    "s7": "N",
+    "s5": "E",
+    "s8": "W",
+    "s11": "D",
+    "s10": "O",
+    "s6": "OR",
+    "s1": "S",
+    "s0": "SH"
   },
   "solutions": [
     {
-      "word": "BUILD",
+      "word": "OPEN",
       "path": [
-        "s11",
-        "s9",
-        "s4",
+        "s3",
         "s2",
-        "s3"
+        "s4",
+        "s9"
       ]
     },
     {
-      "word": "IT",
+      "word": "NEW",
       "path": [
-        "s10",
+        "s7",
+        "s5",
         "s8"
       ]
     },
     {
-      "word": "UP",
+      "word": "DOORS",
       "path": [
-        "s6"
+        "s11",
+        "s10",
+        "s6",
+        "s1"
       ]
     }
   ]

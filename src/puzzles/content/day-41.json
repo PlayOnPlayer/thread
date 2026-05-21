@@ -1,55 +1,52 @@
 {
   "id": "day-41",
-  "title": "FIND NEW PATHS",
+  "title": "BUILD IT UP",
   "layoutId": "layout-41",
-  "phrase": "FIND NEW PATHS",
+  "phrase": "BUILD IT UP",
   "words": [
-    "FIND",
-    "NEW",
-    "PATHS"
+    "BUILD",
+    "IT",
+    "UP"
   ],
   "letters": {
-    "s12": "F",
+    "s4": "B",
+    "s7": "U",
     "s9": "I",
-    "s6": "N",
-    "s5": "D",
-    "s11": "N",
-    "s13": "E",
-    "s10": "W",
-    "s1": "P",
-    "s2": "A",
-    "s3": "T",
-    "s4": "H",
-    "s7": "S",
-    "s0": "SH",
-    "s8": "R"
+    "s6": "L",
+    "s12": "D",
+    "s1": "I",
+    "s2": "T",
+    "s10": "U",
+    "s11": "P",
+    "s0": "SK",
+    "s3": "I",
+    "s5": "I",
+    "s8": "I",
+    "s13": "I"
   },
   "solutions": [
     {
-      "word": "FIND",
+      "word": "BUILD",
       "path": [
-        "s12",
+        "s4",
+        "s7",
         "s9",
         "s6",
-        "s5"
+        "s12"
       ]
     },
     {
-      "word": "NEW",
-      "path": [
-        "s11",
-        "s13",
-        "s10"
-      ]
-    },
-    {
-      "word": "PATHS",
+      "word": "IT",
       "path": [
         "s1",
-        "s2",
-        "s3",
-        "s4",
-        "s7"
+        "s2"
+      ]
+    },
+    {
+      "word": "UP",
+      "path": [
+        "s10",
+        "s11"
       ]
     }
   ]

@@ -1,58 +1,50 @@
 {
   "id": "day-66",
-  "title": "STAY IN THE GAME",
+  "title": "DO YOUR BEST",
   "layoutId": "layout-66",
-  "phrase": "STAY IN THE GAME",
+  "phrase": "DO YOUR BEST",
   "words": [
-    "STAY",
-    "IN",
-    "THE",
-    "GAME"
+    "DO",
+    "YOUR",
+    "BEST"
   ],
   "letters": {
-    "s9": "S",
-    "s6": "T",
-    "s3": "A",
-    "s5": "Y",
-    "s2": "I",
-    "s1": "N",
-    "s4": "T",
-    "s0": "HE",
-    "s11": "G",
-    "s10": "A",
-    "s8": "ME",
-    "s7": "R"
+    "s10": "D",
+    "s11": "O",
+    "s4": "Y",
+    "s5": "O",
+    "s6": "U",
+    "s3": "R",
+    "s2": "B",
+    "s1": "E",
+    "s0": "ST",
+    "s7": "I",
+    "s8": "CH",
+    "s9": "I"
   },
   "solutions": [
     {
-      "word": "STAY",
+      "word": "DO",
       "path": [
-        "s9",
-        "s6",
-        "s3",
-        "s5"
+        "s10",
+        "s11"
       ]
     },
     {
-      "word": "IN",
-      "path": [
-        "s2",
-        "s1"
-      ]
-    },
-    {
-      "word": "THE",
+      "word": "YOUR",
       "path": [
         "s4",
-        "s0"
+        "s5",
+        "s6",
+        "s3"
       ]
     },
     {
-      "word": "GAME",
+      "word": "BEST",
       "path": [
-        "s11",
-        "s10",
-        "s8"
+        "s2",
+        "s1",
+        "s0"
       ]
     }
   ]

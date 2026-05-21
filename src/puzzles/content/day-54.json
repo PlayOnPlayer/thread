@@ -1,58 +1,52 @@
 {
   "id": "day-54",
-  "title": "STAY ON THE PATH",
+  "title": "FACE THE MUSIC",
   "layoutId": "layout-54",
-  "phrase": "STAY ON THE PATH",
+  "phrase": "FACE THE MUSIC",
   "words": [
-    "STAY",
-    "ON",
+    "FACE",
     "THE",
-    "PATH"
+    "MUSIC"
   ],
   "letters": {
-    "s3": "S",
-    "s7": "T",
-    "s6": "A",
-    "s5": "Y",
-    "s10": "O",
-    "s4": "N",
-    "s11": "T",
-    "s9": "HE",
-    "s2": "P",
+    "s2": "F",
     "s1": "A",
-    "s0": "TH",
-    "s8": "R"
+    "s3": "C",
+    "s8": "E",
+    "s10": "T",
+    "s4": "H",
+    "s5": "E",
+    "s6": "M",
+    "s7": "U",
+    "s9": "SI",
+    "s11": "C",
+    "s0": "SH"
   },
   "solutions": [
     {
-      "word": "STAY",
+      "word": "FACE",
       "path": [
+        "s2",
+        "s1",
         "s3",
-        "s7",
-        "s6",
-        "s5"
-      ]
-    },
-    {
-      "word": "ON",
-      "path": [
-        "s10",
-        "s4"
+        "s8"
       ]
     },
     {
       "word": "THE",
       "path": [
-        "s11",
-        "s9"
+        "s10",
+        "s4",
+        "s5"
       ]
     },
     {
-      "word": "PATH",
+      "word": "MUSIC",
       "path": [
-        "s2",
-        "s1",
-        "s0"
+        "s6",
+        "s7",
+        "s9",
+        "s11"
       ]
     }
   ]

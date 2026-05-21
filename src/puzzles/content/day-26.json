@@ -1,56 +1,57 @@
 {
   "id": "day-26",
-  "title": "LOST IN THE FOG",
+  "title": "FIND MAGIC IN NOW",
   "layoutId": "layout-26",
-  "phrase": "LOST IN THE FOG",
+  "phrase": "FIND MAGIC IN NOW",
   "words": [
-    "LOST",
+    "FIND",
+    "MAGIC",
     "IN",
-    "THE",
-    "FOG"
+    "NOW"
   ],
   "letters": {
-    "s2": "L",
-    "s3": "O",
-    "s6": "S",
-    "s9": "T",
-    "s5": "I",
-    "s4": "N",
-    "s10": "T",
-    "s7": "HE",
-    "s1": "F",
-    "s0": "OG",
-    "s8": "SH"
+    "s2": "F",
+    "s1": "I",
+    "s3": "N",
+    "s6": "D",
+    "s9": "M",
+    "s8": "AG",
+    "s4": "I",
+    "s5": "C",
+    "s0": "IN",
+    "s10": "N",
+    "s7": "OW"
   },
   "solutions": [
     {
-      "word": "LOST",
+      "word": "FIND",
       "path": [
         "s2",
+        "s1",
         "s3",
-        "s6",
-        "s9"
+        "s6"
+      ]
+    },
+    {
+      "word": "MAGIC",
+      "path": [
+        "s9",
+        "s8",
+        "s4",
+        "s5"
       ]
     },
     {
       "word": "IN",
       "path": [
-        "s5",
-        "s4"
+        "s0"
       ]
     },
     {
-      "word": "THE",
+      "word": "NOW",
       "path": [
         "s10",
         "s7"
-      ]
-    },
-    {
-      "word": "FOG",
-      "path": [
-        "s1",
-        "s0"
       ]
     }
   ]

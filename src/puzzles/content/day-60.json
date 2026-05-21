@@ -1,58 +1,49 @@
 {
   "id": "day-60",
-  "title": "TAKE THE LEAP NOW",
+  "title": "DREAM IN HD",
   "layoutId": "layout-60",
-  "phrase": "TAKE THE LEAP NOW",
+  "phrase": "DREAM IN HD",
   "words": [
-    "TAKE",
-    "THE",
-    "LEAP",
-    "NOW"
+    "DREAM",
+    "IN",
+    "HD"
   ],
   "letters": {
-    "s7": "T",
-    "s4": "A",
-    "s2": "K",
-    "s1": "E",
-    "s8": "T",
-    "s5": "H",
-    "s9": "E",
-    "s11": "L",
-    "s10": "E",
-    "s6": "AP",
-    "s0": "NO",
-    "s3": "W"
+    "s8": "D",
+    "s9": "R",
+    "s11": "E",
+    "s10": "A",
+    "s7": "M",
+    "s1": "I",
+    "s2": "N",
+    "s4": "H",
+    "s3": "D",
+    "s0": "SK",
+    "s5": "I",
+    "s6": "CH"
   },
   "solutions": [
     {
-      "word": "TAKE",
-      "path": [
-        "s7",
-        "s4",
-        "s2",
-        "s1"
-      ]
-    },
-    {
-      "word": "THE",
+      "word": "DREAM",
       "path": [
         "s8",
-        "s5",
-        "s9"
-      ]
-    },
-    {
-      "word": "LEAP",
-      "path": [
+        "s9",
         "s11",
         "s10",
-        "s6"
+        "s7"
       ]
     },
     {
-      "word": "NOW",
+      "word": "IN",
       "path": [
-        "s0",
+        "s1",
+        "s2"
+      ]
+    },
+    {
+      "word": "HD",
+      "path": [
+        "s4",
         "s3"
       ]
     }

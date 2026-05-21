@@ -1,57 +1,56 @@
 {
   "id": "day-38",
-  "title": "SIGN OF THE TIMES",
+  "title": "DO WHAT YOU CAN",
   "layoutId": "layout-38",
-  "phrase": "SIGN OF THE TIMES",
+  "phrase": "DO WHAT YOU CAN",
   "words": [
-    "SIGN",
-    "OF",
-    "THE",
-    "TIMES"
+    "DO",
+    "WHAT",
+    "YOU",
+    "CAN"
   ],
   "letters": {
-    "s8": "S",
-    "s7": "I",
-    "s3": "G",
-    "s4": "N",
-    "s5": "O",
-    "s6": "F",
-    "s10": "T",
-    "s9": "HE",
-    "s2": "TI",
-    "s1": "M",
-    "s0": "ES"
+    "s5": "D",
+    "s6": "O",
+    "s3": "W",
+    "s7": "H",
+    "s8": "A",
+    "s4": "T",
+    "s10": "Y",
+    "s9": "OU",
+    "s2": "CA",
+    "s1": "N",
+    "s0": "SH"
   },
   "solutions": [
     {
-      "word": "SIGN",
-      "path": [
-        "s8",
-        "s7",
-        "s3",
-        "s4"
-      ]
-    },
-    {
-      "word": "OF",
+      "word": "DO",
       "path": [
         "s5",
         "s6"
       ]
     },
     {
-      "word": "THE",
+      "word": "WHAT",
+      "path": [
+        "s3",
+        "s7",
+        "s8",
+        "s4"
+      ]
+    },
+    {
+      "word": "YOU",
       "path": [
         "s10",
         "s9"
       ]
     },
     {
-      "word": "TIMES",
+      "word": "CAN",
       "path": [
         "s2",
-        "s1",
-        "s0"
+        "s1"
       ]
     }
   ]

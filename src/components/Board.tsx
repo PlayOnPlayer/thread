@@ -1,7 +1,9 @@
+import { EXPERIMENTS } from '../experiments/config';
 import { getLegalNextTiles } from '../engine/seamGraph';
 import type { GuessResult, TileDef } from '../engine/types';
 import type { PuzzleDef } from '../engine/types';
 import './Board.css';
+import '../experiments/onboarding/onboarding.css';
 
 interface BoardProps {
   puzzle: PuzzleDef;
@@ -10,6 +12,7 @@ interface BoardProps {
   lastResult: GuessResult | null;
   disabled?: boolean;
   wrongFeedbackActive?: boolean;
+  demoPathIds?: string[];
   lost?: boolean;
   won?: boolean;
 }
@@ -34,10 +37,13 @@ export function Board({
   lastResult,
   disabled = false,
   wrongFeedbackActive = false,
+  demoPathIds = [],
   lost = false,
   won = false,
 }: BoardProps) {
+  const demoIds = new Set(demoPathIds);
   const boardLocked = disabled || wrongFeedbackActive;
+  const showLegalNext = EXPERIMENTS.legalNextHighlight && !boardLocked;
   const visited = new Set(path.map((t) => t.id));
   const lastTile = path[path.length - 1];
   const legalNext = lastTile
@@ -75,6 +81,9 @@ export function Board({
         const tileDisabled = boardLocked || (path.length > 0 && !inPath && !canSelect);
 
         const isDouble = tile.colSpan === 2 && tile.rowSpan === 2;
+        const inDemo = demoIds.has(tile.id);
+        const isLegalNext =
+          showLegalNext && path.length > 0 && !inPath && legalIds.has(tile.id);
 
         return (
           <button
@@ -84,7 +93,9 @@ export function Board({
               'board-tile',
               isDouble ? 'board-tile--double' : '',
               inPath ? 'board-tile--in-path' : '',
+              inDemo ? 'board-tile--demo' : '',
               !boardLocked && (canSelect || path.length === 0) ? 'board-tile--selectable' : '',
+              isLegalNext ? 'board-tile--legal-next' : '',
               isLast ? 'board-tile--last' : '',
               wrongFeedbackActive && inPath ? 'board-tile--wrong-flash' : '',
               tileFeedbackClass(tile.id, path, lastResult),

@@ -1,58 +1,58 @@
 {
   "id": "day-16",
-  "title": "MAKE THE BEST OF",
+  "title": "WORD TO THE WISE",
   "layoutId": "layout-16",
-  "phrase": "MAKE THE BEST OF",
+  "phrase": "WORD TO THE WISE",
   "words": [
-    "MAKE",
+    "WORD",
+    "TO",
     "THE",
-    "BEST",
-    "OF"
+    "WISE"
   ],
   "letters": {
-    "s10": "M",
-    "s7": "A",
-    "s5": "K",
+    "s11": "W",
+    "s9": "O",
+    "s3": "R",
+    "s4": "D",
+    "s7": "T",
+    "s10": "O",
+    "s2": "T",
+    "s6": "HE",
+    "s0": "WI",
+    "s5": "S",
     "s8": "E",
-    "s4": "T",
-    "s1": "H",
-    "s2": "E",
-    "s6": "BE",
-    "s11": "S",
-    "s9": "T",
-    "s0": "OF",
-    "s3": "R"
+    "s1": "O"
   },
   "solutions": [
     {
-      "word": "MAKE",
+      "word": "WORD",
       "path": [
-        "s10",
+        "s11",
+        "s9",
+        "s3",
+        "s4"
+      ]
+    },
+    {
+      "word": "TO",
+      "path": [
         "s7",
-        "s5",
-        "s8"
+        "s10"
       ]
     },
     {
       "word": "THE",
       "path": [
-        "s4",
-        "s1",
-        "s2"
+        "s2",
+        "s6"
       ]
     },
     {
-      "word": "BEST",
+      "word": "WISE",
       "path": [
-        "s6",
-        "s11",
-        "s9"
-      ]
-    },
-    {
-      "word": "OF",
-      "path": [
-        "s0"
+        "s0",
+        "s5",
+        "s8"
       ]
     }
   ]

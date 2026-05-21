@@ -1,52 +1,51 @@
 {
   "id": "day-57",
-  "title": "SEEK THE TRUTH",
+  "title": "FIND NEW PATHS",
   "layoutId": "layout-57",
-  "phrase": "SEEK THE TRUTH",
+  "phrase": "FIND NEW PATHS",
   "words": [
-    "SEEK",
-    "THE",
-    "TRUTH"
+    "FIND",
+    "NEW",
+    "PATHS"
   ],
   "letters": {
-    "s9": "S",
-    "s10": "E",
-    "s4": "E",
-    "s6": "K",
-    "s2": "T",
-    "s1": "H",
+    "s4": "F",
+    "s10": "I",
+    "s9": "N",
+    "s11": "D",
+    "s6": "N",
     "s3": "E",
+    "s2": "W",
+    "s7": "PA",
     "s5": "T",
-    "s7": "RU",
-    "s8": "T",
-    "s11": "H",
-    "s0": "SH"
+    "s0": "HS",
+    "s1": "O",
+    "s8": "O"
   },
   "solutions": [
     {
-      "word": "SEEK",
+      "word": "FIND",
       "path": [
-        "s9",
-        "s10",
         "s4",
-        "s6"
-      ]
-    },
-    {
-      "word": "THE",
-      "path": [
-        "s2",
-        "s1",
-        "s3"
-      ]
-    },
-    {
-      "word": "TRUTH",
-      "path": [
-        "s5",
-        "s7",
-        "s8",
+        "s10",
+        "s9",
         "s11"
+      ]
+    },
+    {
+      "word": "NEW",
+      "path": [
+        "s6",
+        "s3",
+        "s2"
+      ]
+    },
+    {
+      "word": "PATHS",
+      "path": [
+        "s7",
+        "s5",
+        "s0"
       ]
     }
   ]

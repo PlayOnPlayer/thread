@@ -1,59 +1,58 @@
 {
   "id": "day-32",
-  "title": "KEEP AN OPEN MIND",
+  "title": "TAKE IT ONE DAY",
   "layoutId": "layout-32",
-  "phrase": "KEEP AN OPEN MIND",
+  "phrase": "TAKE IT ONE DAY",
   "words": [
-    "KEEP",
-    "AN",
-    "OPEN",
-    "MIND"
+    "TAKE",
+    "IT",
+    "ONE",
+    "DAY"
   ],
   "letters": {
-    "s3": "K",
-    "s4": "E",
-    "s8": "E",
-    "s11": "P",
-    "s5": "A",
-    "s6": "N",
-    "s9": "O",
-    "s10": "P",
-    "s7": "EN",
-    "s2": "M",
-    "s1": "I",
-    "s0": "ND"
+    "s1": "T",
+    "s3": "A",
+    "s4": "K",
+    "s2": "E",
+    "s5": "I",
+    "s9": "T",
+    "s8": "O",
+    "s11": "N",
+    "s10": "E",
+    "s7": "DA",
+    "s6": "Y",
+    "s0": "SH"
   },
   "solutions": [
     {
-      "word": "KEEP",
+      "word": "TAKE",
       "path": [
+        "s1",
         "s3",
         "s4",
-        "s8",
-        "s11"
+        "s2"
       ]
     },
     {
-      "word": "AN",
+      "word": "IT",
       "path": [
         "s5",
+        "s9"
+      ]
+    },
+    {
+      "word": "ONE",
+      "path": [
+        "s8",
+        "s11",
+        "s10"
+      ]
+    },
+    {
+      "word": "DAY",
+      "path": [
+        "s7",
         "s6"
-      ]
-    },
-    {
-      "word": "OPEN",
-      "path": [
-        "s9",
-        "s10",
-        "s7"
-      ]
-    },
-    {
-      "word": "MIND",
-      "path": [
-        "s2",
-        "s1",
-        "s0"
       ]
     }
   ]
