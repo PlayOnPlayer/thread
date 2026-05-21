@@ -1,11 +1,11 @@
 import type { GuessResult } from '../engine/types';
 import { EXPERIMENTS } from './config';
 
-const HINT_DEFAULT =
-  'Form each word by tapping only boxes that are directly connected to each other';
+const HINT_TEXT = 'Form each word by tapping boxes that are only directly connected';
 
-const HINT_SHARP =
-  'Form each word by tapping only boxes that are directly connected to each other, then press Submit';
+const HINT_DEFAULT = HINT_TEXT;
+
+const HINT_SHARP = HINT_TEXT;
 
 export function getGameHint(): string {
   return EXPERIMENTS.sharpHint ? HINT_SHARP : HINT_DEFAULT;
