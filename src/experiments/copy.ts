@@ -11,16 +11,6 @@ export function getGameHint(): string {
   return EXPERIMENTS.sharpHint ? HINT_SHARP : HINT_DEFAULT;
 }
 
-export function getWordProgressLabel(
-  revealedWords: boolean[],
-  hidden: boolean,
-): string | null {
-  if (!EXPERIMENTS.wordProgressLabel || hidden) return null;
-  const nextIndex = revealedWords.findIndex((revealed) => !revealed);
-  if (nextIndex === -1) return null;
-  return `Word ${nextIndex + 1} of ${revealedWords.length}`;
-}
-
 export function getWrongGuessMessage(result: GuessResult): string | null {
   if (!EXPERIMENTS.clearWrongMessages) return 'Wrong.';
   if (result.phraseFeedback === 'notInPhrase') return 'Not in the phrase.';

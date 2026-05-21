@@ -6,6 +6,5 @@ export const EXPERIMENTS = {
   legalNextHighlight: true,
   firstVisitDemo: true,
   vowelAwareDecoys: true,
-  wordProgressLabel: true,
   clearWrongMessages: true,
 } as const;

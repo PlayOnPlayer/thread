@@ -65,15 +65,6 @@
   justify-content: center;
 }
 
-.game__word-progress {
-  margin: 0 0 8px;
-  text-align: center;
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: var(--color-muted);
-  letter-spacing: 0.04em;
-}
-
 .game__buttons button,
 .game__button-link {
   font-family: var(--font-game);

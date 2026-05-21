@@ -7,7 +7,7 @@ import { Board } from './Board';
 import { getPaginationItems } from './pagination';
 import { PhraseStrip } from './PhraseStrip';
 import { TriesDots } from './TriesDots';
-import { getGameHint, getWordProgressLabel, getWrongGuessMessage } from '../experiments/copy';
+import { getGameHint, getWrongGuessMessage } from '../experiments/copy';
 import { useFirstVisitDemo } from '../experiments/onboarding/useFirstVisitDemo';
 import './Game.css';
 
@@ -162,8 +162,6 @@ export function Game() {
     return null;
   }, [state.won, lost, state.lastResult]);
 
-  const wordProgressLabel = getWordProgressLabel(state.revealedWords, gameOver);
-
   const handleClearSelection = useCallback(
     (e: React.MouseEvent) => {
       if (gameOver) return;
@@ -187,9 +185,6 @@ export function Game() {
         </p>
       </header>
 
-      {wordProgressLabel ? (
-        <p className="game__word-progress">{wordProgressLabel}</p>
-      ) : null}
       <PhraseStrip puzzle={puzzle} revealedWords={state.revealedWords} lost={lost} />
 
       <Board
