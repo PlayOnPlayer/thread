@@ -65,7 +65,17 @@
   justify-content: center;
 }
 
-.game__buttons button {
+.game__word-progress {
+  margin: 0 0 8px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-muted);
+  letter-spacing: 0.04em;
+}
+
+.game__buttons button,
+.game__button-link {
   font-family: var(--font-game);
   font-size: 1rem;
   padding: 10px 24px;
@@ -73,11 +83,19 @@
   border: 1px solid var(--color-tile-border);
   background: var(--color-tile-bg);
   cursor: pointer;
+  text-decoration: none;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-.game__buttons button:disabled {
+.game__buttons button:disabled,
+.game__button-link--disabled {
   opacity: 0.5;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .game__submit {
@@ -87,8 +105,7 @@
 }
 
 .game__win-message {
-  margin: 0;
-  min-height: 2.5rem;
+  margin: 0 0 12px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -7,7 +7,7 @@ import { Board } from './Board';
 import { getPaginationItems } from './pagination';
 import { PhraseStrip } from './PhraseStrip';
 import { TriesDots } from './TriesDots';
-import { getGameHint } from '../experiments/copy';
+import { getGameHint, getWordProgressLabel, getWrongGuessMessage } from '../experiments/copy';
 import { useFirstVisitDemo } from '../experiments/onboarding/useFirstVisitDemo';
 import './Game.css';
 
@@ -156,11 +156,13 @@ export function Game() {
     if (lost) return 'Game over.';
     const last = state.lastResult;
     if (!last) return null;
-    if (last.phraseFeedback === 'wrongChapter' || last.phraseFeedback === 'notInPhrase') {
-      return 'Wrong.';
+    if (last.revealedWordIndex === null) {
+      return getWrongGuessMessage(last);
     }
     return null;
   }, [state.won, lost, state.lastResult]);
+
+  const wordProgressLabel = getWordProgressLabel(state.revealedWords, gameOver);
 
   const handleClearSelection = useCallback(
     (e: React.MouseEvent) => {
@@ -185,6 +187,9 @@ export function Game() {
         </p>
       </header>
 
+      {wordProgressLabel ? (
+        <p className="game__word-progress">{wordProgressLabel}</p>
+      ) : null}
       <PhraseStrip puzzle={puzzle} revealedWords={state.revealedWords} lost={lost} />
 
       <Board
@@ -213,9 +218,25 @@ export function Game() {
         </div>
         <TriesDots triesLeft={triesLeft} maxTries={MAX_TRIES} hidden={state.won} />
         {state.won ? (
-          <p className="game__win-message" role="status">
-            You Won!
-          </p>
+          <>
+            <p className="game__win-message" role="status">
+              You Won!
+            </p>
+            <div className="game__buttons">
+              <a className="game__button-link" href={`?level=${activeLevel}`}>
+                Replay
+              </a>
+              {activeLevel < totalLevels ? (
+                <a className="game__button-link game__submit" href={`?level=${activeLevel + 1}`}>
+                  Next
+                </a>
+              ) : (
+                <span className="game__button-link game__submit game__button-link--disabled">
+                  Next
+                </span>
+              )}
+            </div>
+          </>
         ) : (
           <div className="game__buttons">
             <button type="button" onClick={clearPath} disabled={!canClear || gameOver}>
